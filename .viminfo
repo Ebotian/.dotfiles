@@ -153,7 +153,10 @@ $dotfiles
 "0	LINE	0
 	git push "$GITHUB_REPO" main
 |3,0,0,1,1,0,1689276308,"git push \"$GITHUB_REPO\" main"
-"1	LINE	0
+""1	LINE	0
+	.zsh_history
+|3,1,1,1,1,0,1689283704,".zsh_history"
+"2	LINE	0
 	#!/usr/bin/env bash
 	
 	# Set the path to your dotfiles repository
@@ -181,36 +184,33 @@ $dotfiles
 	# Push the changes to the GitHub repository
 	git push "$GITHUB_REPO" main
 	
-|3,0,1,1,27,0,1689275812,"#!/usr/bin/env bash","","# Set the path to your dotfiles repository","DOTFILES_REPO=\"$HOME/.dotfiles\"","","# Set the URL of your GitHub repository","GITHUB_REPO=\"https://github.com/Ebotian/.dotfiles.git\"","","# Change to the dotfiles repository directory","cd \"$DOTFILES_REPO\"","","# Move all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs -I {} mv {} \"$DOTFILES_REPO\"","",>60
+|3,0,2,1,27,0,1689275812,"#!/usr/bin/env bash","","# Set the path to your dotfiles repository","DOTFILES_REPO=\"$HOME/.dotfiles\"","","# Set the URL of your GitHub repository","GITHUB_REPO=\"https://github.com/Ebotian/.dotfiles.git\"","","# Change to the dotfiles repository directory","cd \"$DOTFILES_REPO\"","","# Move all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs -I {} mv {} \"$DOTFILES_REPO\"","",>60
 |<"# Create symbolic links for all dotfiles in the repository","find \"$DOTFILES_REPO\" -maxdepth 1 -type f -iname '.*' -exec ln -s {} $HOME \\;","","# Add all changes to the repository","git add --all","","# Commit the changes with a message containing the current date, hostname, and a reminder to source the script","git commit -m \"dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname).\"","# Remember to source this script after pulling changes.\"","",>45
 |<"# Push the changes to the GitHub repository","git push \"$GITHUB_REPO\" main",""
-"2	LINE	0
-	
-|3,0,2,1,1,0,1689273920,""
 "3	LINE	0
-	find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \;
-|3,0,3,1,1,0,1689273911,"find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \\;"
+	
+|3,0,3,1,1,0,1689273920,""
 "4	LINE	0
+	find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \;
+|3,0,4,1,1,0,1689273911,"find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \\;"
+"5	LINE	0
 	# Copy all dotfiles from $HOME to the repository
 	find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t "$DOTFILES_REPO"
 	
 	# Remove existing dotfiles in $HOME
-|3,0,4,1,4,0,1689273907,"# Copy all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t \"$DOTFILES_REPO\"","","# Remove existing dotfiles in $HOME"
-"5	LINE	0
-	unbind q
-|3,0,5,1,1,0,1689270103,"unbind q"
+|3,0,5,1,4,0,1689273907,"# Copy all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t \"$DOTFILES_REPO\"","","# Remove existing dotfiles in $HOME"
 "6	LINE	0
-	set -g status-right "%H:%M:%S"
-|3,0,6,1,1,0,1689266502,"set -g status-right \"%H:%M:%S\""
+	unbind q
+|3,0,6,1,1,0,1689270103,"unbind q"
 "7	LINE	0
-	g bhg=cyan
-|3,0,7,1,1,0,1689257937,"g bhg=cyan"
+	set -g status-right "%H:%M:%S"
+|3,0,7,1,1,0,1689266502,"set -g status-right \"%H:%M:%S\""
 "8	LINE	0
-	set-option -g status-style us=red
-|3,0,8,1,1,0,1689257098,"set-option -g status-style us=red"
+	g bhg=cyan
+|3,0,8,1,1,0,1689257937,"g bhg=cyan"
 "9	LINE	0
-		helper = 
-|3,0,9,1,1,0,1689164466,"	helper = "
+	set-option -g status-style us=red
+|3,0,9,1,1,0,1689257098,"set-option -g status-style us=red"
 "a	CHAR	0
 	r"elr"a:"€ýa$bdwdwdwxa",€ýa
 |3,0,10,0,1,0,1688261561,"r\"elr\"a:\"€ýa$bdwdwdwxa\",€ýa"
@@ -223,39 +223,49 @@ $dotfiles
 "p	CHAR	0
 	P€ýa
 |3,0,25,0,1,0,1688392430,"P€ýa"
-""-	CHAR	0
+"-	CHAR	0
 	push
-|3,1,36,0,1,0,1689276317,"push"
+|3,0,36,0,1,0,1689276317,"push"
 
 # File marks:
-'0  1  11  ~/.dotfiles/.gitignore
-|4,48,1,11,1689277442,"~/.dotfiles/.gitignore"
-'1  24  7  ~/.dotfiles/sync.sh
-|4,49,24,7,1689276329,"~/.dotfiles/sync.sh"
-'2  16  54  ~/.allrc.sh
-|4,50,16,54,1689275905,"~/.allrc.sh"
-'3  1  0  ~/.allrc.sh
-|4,51,1,0,1689273386,"~/.allrc.sh"
+'0  1  0  ~/.dotfiles/.gitignore
+|4,48,1,0,1689283709,"~/.dotfiles/.gitignore"
+'1  1  11  ~/.dotfiles/.gitignore
+|4,49,1,11,1689277442,"~/.dotfiles/.gitignore"
+'2  24  7  ~/.dotfiles/sync.sh
+|4,50,24,7,1689276329,"~/.dotfiles/sync.sh"
+'3  16  54  ~/.allrc.sh
+|4,51,16,54,1689275905,"~/.allrc.sh"
 '4  1  0  ~/.allrc.sh
 |4,52,1,0,1689273386,"~/.allrc.sh"
-'5  34  91  ~/.tmux.conf
-|4,53,34,91,1689270669,"~/.tmux.conf"
-'6  40  21  ~/.tmux.conf
-|4,54,40,21,1689270173,"~/.tmux.conf"
-'7  39  21  ~/.tmux.conf
-|4,55,39,21,1689270173,"~/.tmux.conf"
-'8  1  0  ~/.tmux.conf
-|4,56,1,0,1689269985,"~/.tmux.conf"
+'5  1  0  ~/.allrc.sh
+|4,53,1,0,1689273386,"~/.allrc.sh"
+'6  34  91  ~/.tmux.conf
+|4,54,34,91,1689270669,"~/.tmux.conf"
+'7  40  21  ~/.tmux.conf
+|4,55,40,21,1689270173,"~/.tmux.conf"
+'8  39  21  ~/.tmux.conf
+|4,56,39,21,1689270173,"~/.tmux.conf"
 '9  1  0  ~/.tmux.conf
 |4,57,1,0,1689269985,"~/.tmux.conf"
 
 # Jumplist (newest first):
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
 -'  1  11  ~/.dotfiles/.gitignore
 |4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
 -'  24  7  ~/.dotfiles/sync.sh
 |4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
 -'  24  7  ~/.dotfiles/sync.sh
 |4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -268,6 +278,14 @@ $dotfiles
 |4,39,16,54,1689275905,"~/.allrc.sh"
 -'  16  54  ~/.allrc.sh
 |4,39,16,54,1689275905,"~/.allrc.sh"
+-'  16  54  ~/.allrc.sh
+|4,39,16,54,1689275905,"~/.allrc.sh"
+-'  16  54  ~/.allrc.sh
+|4,39,16,54,1689275905,"~/.allrc.sh"
+-'  16  54  ~/.allrc.sh
+|4,39,16,54,1689275905,"~/.allrc.sh"
+-'  16  54  ~/.allrc.sh
+|4,39,16,54,1689275905,"~/.allrc.sh"
 -'  1  0  ~/.allrc.sh
 |4,39,1,0,1689275812,"~/.allrc.sh"
 -'  1  0  ~/.allrc.sh
@@ -276,6 +294,22 @@ $dotfiles
 |4,39,1,0,1689275812,"~/.allrc.sh"
 -'  1  0  ~/.allrc.sh
 |4,39,1,0,1689275812,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689275812,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689275812,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689275812,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689275812,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689273386,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689273386,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689273386,"~/.allrc.sh"
+-'  1  0  ~/.allrc.sh
+|4,39,1,0,1689273386,"~/.allrc.sh"
 -'  1  0  ~/.allrc.sh
 |4,39,1,0,1689273386,"~/.allrc.sh"
 -'  1  0  ~/.allrc.sh
@@ -316,6 +350,70 @@ $dotfiles
 |4,39,34,91,1689270669,"~/.tmux.conf"
 -'  34  91  ~/.tmux.conf
 |4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  34  91  ~/.tmux.conf
+|4,39,34,91,1689270669,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1689270645,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
 |4,39,1,0,1689270645,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
@@ -352,113 +450,14 @@ $dotfiles
 |4,39,40,21,1689270173,"~/.tmux.conf"
 -'  39  21  ~/.tmux.conf
 |4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  40  21  ~/.tmux.conf
-|4,39,40,21,1689270173,"~/.tmux.conf"
--'  39  21  ~/.tmux.conf
-|4,39,39,21,1689270173,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689270102,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689269985,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689269985,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1689269985,"~/.tmux.conf"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/.gitignore
-	*	1689277439	0
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
+	*	1689283708	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/.dotfiles/sync.sh
 	*	1689276321	0
