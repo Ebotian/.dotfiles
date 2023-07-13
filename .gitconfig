@@ -1,0 +1,13 @@
+[credential]
+	credentialStore = gpg
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	name = Yibotian
+	email = yiboxiaotian@nuaa.edu.cn
+[alias]
+	graphb = log --all --graph --decorate --oneline
+	graphd = log --all --graph --decorate 
+[init]
+	defaultBranch = main
