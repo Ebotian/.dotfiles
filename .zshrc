@@ -131,3 +131,4 @@ alias rsed="sed -r"
 source $HOME/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 export VISUAL=vim
 export EDITOR=vim
+source "$HOME/.dotfiles/sync.sh"

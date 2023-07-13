@@ -24,4 +24,4 @@ git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname)"
 git pull "$GITHUB_REPO" main
 # Push the changes to the GitHub repository
 git push "$GITHUB_REPO" main
-
+# Add `source "$HOME/.dotfiles/sync.sh"` to .zshrc and .bashrc

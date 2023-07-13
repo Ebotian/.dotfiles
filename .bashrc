@@ -139,3 +139,4 @@ proxyoff() {
 #for homework needs:
 #source /home/yibotian/Fanta-sea/Markdown/YSYX/PRE/3.3.Shell_programming/TMS2.1.sh
 alias rsed='sed -r'
+source "$HOME/.dotfiles/sync.sh"
