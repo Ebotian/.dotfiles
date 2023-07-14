@@ -155,9 +155,9 @@ $dotfiles
 "0	LINE	0
 	.zsh_history
 |3,0,0,1,1,0,1689342770,".zsh_history"
-""1@	LINE	0
+"1@	LINE	0
 	find -type l -iname '.swp'|rm
-|3,3,1,1,1,0,1689352554,"find -type l -iname '.swp'|rm"
+|3,2,1,1,1,0,1689352554,"find -type l -iname '.swp'|rm"
 "2	CHAR	0
 	i# j0
 |3,0,2,0,1,0,1689344618,"i# j0"
@@ -225,39 +225,77 @@ $dotfiles
 "p	CHAR	0
 	P€ýa
 |3,0,25,0,1,0,1688392430,"P€ýa"
-"-	CHAR	0
-	referred  
-|3,0,36,0,1,0,1689351718,"referred  "
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1689352796," "
 
 # File marks:
-'0  37  0  ~/.dotfiles/sync.sh
-|4,48,37,0,1689352556,"~/.dotfiles/sync.sh"
-'1  14  135  ~/.dotfiles/sync.sh
-|4,49,14,135,1689351776,"~/.dotfiles/sync.sh"
-'2  14  135  ~/.dotfiles/sync.sh
-|4,50,14,135,1689351776,"~/.dotfiles/sync.sh"
-'3  1  0  ~/.dotfiles/sync.sh
-|4,51,1,0,1689351350,"~/.dotfiles/sync.sh"
-'4  1  0  ~/.dotfiles/sync.sh
-|4,52,1,0,1689351350,"~/.dotfiles/sync.sh"
-'5  1  0  ~/.dotfiles/sync.sh
-|4,53,1,0,1689351350,"~/.dotfiles/sync.sh"
-'6  1  0  ~/.dotfiles/sync.sh
-|4,54,1,0,1689351350,"~/.dotfiles/sync.sh"
-'7  28  7  ~/.dotfiles/sync.sh
-|4,55,28,7,1689350807,"~/.dotfiles/sync.sh"
-'8  28  7  ~/.dotfiles/sync.sh
-|4,56,28,7,1689350807,"~/.dotfiles/sync.sh"
-'9  26  7  ~/.dotfiles/sync.sh
-|4,57,26,7,1689350807,"~/.dotfiles/sync.sh"
+'0  40  0  ~/.dotfiles/.tmux.conf
+|4,48,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+'1  38  0  ~/.dotfiles/sync.sh
+|4,49,38,0,1689352828,"~/.dotfiles/sync.sh"
+'2  37  0  ~/.dotfiles/sync.sh
+|4,50,37,0,1689352556,"~/.dotfiles/sync.sh"
+'3  37  0  ~/.dotfiles/sync.sh
+|4,51,37,0,1689352556,"~/.dotfiles/sync.sh"
+'4  14  135  ~/.dotfiles/sync.sh
+|4,52,14,135,1689351776,"~/.dotfiles/sync.sh"
+'5  14  135  ~/.dotfiles/sync.sh
+|4,53,14,135,1689351776,"~/.dotfiles/sync.sh"
+'6  14  135  ~/.dotfiles/sync.sh
+|4,54,14,135,1689351776,"~/.dotfiles/sync.sh"
+'7  14  135  ~/.dotfiles/sync.sh
+|4,55,14,135,1689351776,"~/.dotfiles/sync.sh"
+'8  1  0  ~/.dotfiles/sync.sh
+|4,56,1,0,1689351350,"~/.dotfiles/sync.sh"
+'9  1  0  ~/.dotfiles/sync.sh
+|4,57,1,0,1689351350,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
+-'  40  0  ~/.dotfiles/.tmux.conf
+|4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  1  0  ~/.dotfiles/.tmux.conf
+|4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
 -'  37  0  ~/.dotfiles/sync.sh
 |4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
 -'  2  0  ~/.dotfiles/sync.sh
 |4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
+-'  2  0  ~/.dotfiles/sync.sh
+|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
+-'  2  0  ~/.dotfiles/sync.sh
+|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
+-'  2  0  ~/.dotfiles/sync.sh
+|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
+-'  14  135  ~/.dotfiles/sync.sh
+|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
+-'  14  135  ~/.dotfiles/sync.sh
+|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
+-'  14  135  ~/.dotfiles/sync.sh
+|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
+-'  14  135  ~/.dotfiles/sync.sh
+|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
 -'  14  135  ~/.dotfiles/sync.sh
 |4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
 -'  14  135  ~/.dotfiles/sync.sh
@@ -265,7 +303,29 @@ $dotfiles
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689351444,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689351444,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689351350,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689351350,"~/.dotfiles/sync.sh"
+-'  28  7  ~/.dotfiles/sync.sh
+|4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
+-'  28  7  ~/.dotfiles/sync.sh
+|4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
+-'  28  7  ~/.dotfiles/sync.sh
+|4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
+-'  28  7  ~/.dotfiles/sync.sh
+|4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
 -'  28  7  ~/.dotfiles/sync.sh
 |4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
 -'  26  7  ~/.dotfiles/sync.sh
@@ -278,6 +338,22 @@ $dotfiles
 |4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689350471,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689350471,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  37  7  ~/.dotfiles/sync.sh
+|4,39,37,7,1689350378,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
 -'  35  7  ~/.dotfiles/sync.sh
 |4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
 -'  37  7  ~/.dotfiles/sync.sh
@@ -290,6 +366,8 @@ $dotfiles
 |4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689350362,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689350362,"~/.dotfiles/sync.sh"
 -'  36  1  ~/.dotfiles/sync.sh
 |4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
@@ -298,12 +376,36 @@ $dotfiles
 |4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  36  1  ~/.dotfiles/sync.sh
+|4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  36  1  ~/.dotfiles/sync.sh
+|4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  36  1  ~/.dotfiles/sync.sh
+|4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  36  1  ~/.dotfiles/sync.sh
+|4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  33  0  ~/.dotfiles/sync.sh
 |4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  35  0  ~/.dotfiles/sync.sh
@@ -316,6 +418,22 @@ $dotfiles
 |4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  33  0  ~/.dotfiles/sync.sh
 |4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  35  0  ~/.dotfiles/sync.sh
+|4,39,35,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689344272,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689344272,"~/.dotfiles/sync.sh"
 -'  30  20  ~/.dotfiles/sync.sh
@@ -332,132 +450,19 @@ $dotfiles
 |4,39,28,20,1689343094,"~/.dotfiles/sync.sh"
 -'  28  20  ~/.dotfiles/sync.sh
 |4,39,28,20,1689343094,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689343044,"~/.dotfiles/sync.sh"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  30  20  ~/.dotfiles/sync.sh
+|4,39,30,20,1689343094,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/.dotfiles/.tmux.conf
+	*	1689352877	0
+	"	40	0
+
 > ~/.dotfiles/sync.sh
-	*	1689352554	0
-	"	37	0
+	*	1689352799	0
+	"	38	0
+	^	38	43
 	.	38	0
 	+	27	0
 	+	26	7
