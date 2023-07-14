@@ -10,11 +10,10 @@ GITHUB_REPO="https://github.com/Ebotian/.dotfiles.git"
 cd "$DOTFILES_REPO"
 
 # Move all dotfiles from $HOME to the repository
-find $HOME -maxdepth 1 -type f -iname '.*' | xargs -I {} mv {} "$DOTFILES_REPO"
+find $HOME -maxdepth 1 -type f -iregex '.*$' | xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
-
 # Create symbolic links for all dotfiles in the repository
-find "$DOTFILES_REPO" -maxdepth 1 -type f -iname '.*' -exec ln -sf {} $HOME \;
+find "$DOTFILES_REPO" -maxdepth 1 -type f -iregex '.*$' -exec ln -sf {} $HOME \;
 # {} is replaced by the current file name). The \; at the end of the command is used to terminate the -exec expression
 
 # Add all changes to the repository
@@ -34,5 +33,5 @@ git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname)"
 # 3. git clone it to local
 # 4. run the shell script to get all things done
 # 5. check if everything goes right
-cd $HOME
-find -type l -iname '*.swp' -exec rm {} \;
+# find and remove broken symbolinks
+find $HOME -xtype l -delete
