@@ -33,5 +33,5 @@ git push
 # 3. git clone it to local
 # 4. run the shell script to get all things done
 # 5. check if everything goes right
-cd $HOME
-find -type l -iregex '.*$' -exec rm {} \;
+# find and remove broken symbolinks
+find $HOME -xtype l -delete
