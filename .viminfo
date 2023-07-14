@@ -155,10 +155,13 @@ $dotfiles
 "0	LINE	0
 	.zsh_history
 |3,0,0,1,1,0,1689342770,".zsh_history"
-"1@	CHAR	0
+""1@	LINE	0
+	find -type l -iname '.swp'|rm
+|3,3,1,1,1,0,1689352554,"find -type l -iname '.swp'|rm"
+"2	CHAR	0
 	i# j0
-|3,2,1,0,1,0,1689344618,"i# j0"
-"2	LINE	0
+|3,0,2,0,1,0,1689344618,"i# j0"
+"3	LINE	0
 	#!/usr/bin/env bash
 	
 	# Set the path to your dotfiles repository
@@ -186,33 +189,30 @@ $dotfiles
 	# Push the changes to the GitHub repository
 	git push "$GITHUB_REPO" main
 	
-|3,0,2,1,27,0,1689275812,"#!/usr/bin/env bash","","# Set the path to your dotfiles repository","DOTFILES_REPO=\"$HOME/.dotfiles\"","","# Set the URL of your GitHub repository","GITHUB_REPO=\"https://github.com/Ebotian/.dotfiles.git\"","","# Change to the dotfiles repository directory","cd \"$DOTFILES_REPO\"","","# Move all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs -I {} mv {} \"$DOTFILES_REPO\"","",>60
+|3,0,3,1,27,0,1689275812,"#!/usr/bin/env bash","","# Set the path to your dotfiles repository","DOTFILES_REPO=\"$HOME/.dotfiles\"","","# Set the URL of your GitHub repository","GITHUB_REPO=\"https://github.com/Ebotian/.dotfiles.git\"","","# Change to the dotfiles repository directory","cd \"$DOTFILES_REPO\"","","# Move all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs -I {} mv {} \"$DOTFILES_REPO\"","",>60
 |<"# Create symbolic links for all dotfiles in the repository","find \"$DOTFILES_REPO\" -maxdepth 1 -type f -iname '.*' -exec ln -s {} $HOME \\;","","# Add all changes to the repository","git add --all","","# Commit the changes with a message containing the current date, hostname, and a reminder to source the script","git commit -m \"dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname).\"","# Remember to source this script after pulling changes.\"","",>45
 |<"# Push the changes to the GitHub repository","git push \"$GITHUB_REPO\" main",""
-"3	LINE	0
-	
-|3,0,3,1,1,0,1689273920,""
 "4	LINE	0
-	find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \;
-|3,0,4,1,1,0,1689273911,"find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \\;"
+	
+|3,0,4,1,1,0,1689273920,""
 "5	LINE	0
+	find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \;
+|3,0,5,1,1,0,1689273911,"find $HOME -maxdepth 1 -type f -iname '.*' -exec rm {} \\;"
+"6	LINE	0
 	# Copy all dotfiles from $HOME to the repository
 	find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t "$DOTFILES_REPO"
 	
 	# Remove existing dotfiles in $HOME
-|3,0,5,1,4,0,1689273907,"# Copy all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t \"$DOTFILES_REPO\"","","# Remove existing dotfiles in $HOME"
-"6	LINE	0
-	unbind q
-|3,0,6,1,1,0,1689270103,"unbind q"
+|3,0,6,1,4,0,1689273907,"# Copy all dotfiles from $HOME to the repository","find $HOME -maxdepth 1 -type f -iname '.*' | xargs cp -t \"$DOTFILES_REPO\"","","# Remove existing dotfiles in $HOME"
 "7	LINE	0
-	set -g status-right "%H:%M:%S"
-|3,0,7,1,1,0,1689266502,"set -g status-right \"%H:%M:%S\""
+	unbind q
+|3,0,7,1,1,0,1689270103,"unbind q"
 "8	LINE	0
-	g bhg=cyan
-|3,0,8,1,1,0,1689257937,"g bhg=cyan"
+	set -g status-right "%H:%M:%S"
+|3,0,8,1,1,0,1689266502,"set -g status-right \"%H:%M:%S\""
 "9	LINE	0
-	set-option -g status-style us=red
-|3,0,9,1,1,0,1689257098,"set-option -g status-style us=red"
+	g bhg=cyan
+|3,0,9,1,1,0,1689257937,"g bhg=cyan"
 "a	CHAR	0
 	r"elr"a:"€ýa$bdwdwdwxa",€ýa
 |3,0,10,0,1,0,1688261561,"r\"elr\"a:\"€ýa$bdwdwdwxa\",€ýa"
@@ -225,33 +225,41 @@ $dotfiles
 "p	CHAR	0
 	P€ýa
 |3,0,25,0,1,0,1688392430,"P€ýa"
-""-	CHAR	0
+"-	CHAR	0
 	referred  
-|3,1,36,0,1,0,1689351718,"referred  "
+|3,0,36,0,1,0,1689351718,"referred  "
 
 # File marks:
-'0  14  135  ~/.dotfiles/sync.sh
-|4,48,14,135,1689351776,"~/.dotfiles/sync.sh"
-'1  1  0  ~/.dotfiles/sync.sh
-|4,49,1,0,1689351350,"~/.dotfiles/sync.sh"
-'2  1  0  ~/.dotfiles/sync.sh
-|4,50,1,0,1689351350,"~/.dotfiles/sync.sh"
-'3  28  7  ~/.dotfiles/sync.sh
-|4,51,28,7,1689350807,"~/.dotfiles/sync.sh"
-'4  28  7  ~/.dotfiles/sync.sh
-|4,52,28,7,1689350807,"~/.dotfiles/sync.sh"
-'5  26  7  ~/.dotfiles/sync.sh
-|4,53,26,7,1689350807,"~/.dotfiles/sync.sh"
-'6  26  7  ~/.dotfiles/sync.sh
-|4,54,26,7,1689350807,"~/.dotfiles/sync.sh"
-'7  37  7  ~/.dotfiles/sync.sh
-|4,55,37,7,1689350378,"~/.dotfiles/sync.sh"
-'8  37  7  ~/.dotfiles/sync.sh
-|4,56,37,7,1689350378,"~/.dotfiles/sync.sh"
-'9  37  7  ~/.dotfiles/sync.sh
-|4,57,37,7,1689350378,"~/.dotfiles/sync.sh"
+'0  37  0  ~/.dotfiles/sync.sh
+|4,48,37,0,1689352556,"~/.dotfiles/sync.sh"
+'1  14  135  ~/.dotfiles/sync.sh
+|4,49,14,135,1689351776,"~/.dotfiles/sync.sh"
+'2  14  135  ~/.dotfiles/sync.sh
+|4,50,14,135,1689351776,"~/.dotfiles/sync.sh"
+'3  1  0  ~/.dotfiles/sync.sh
+|4,51,1,0,1689351350,"~/.dotfiles/sync.sh"
+'4  1  0  ~/.dotfiles/sync.sh
+|4,52,1,0,1689351350,"~/.dotfiles/sync.sh"
+'5  1  0  ~/.dotfiles/sync.sh
+|4,53,1,0,1689351350,"~/.dotfiles/sync.sh"
+'6  1  0  ~/.dotfiles/sync.sh
+|4,54,1,0,1689351350,"~/.dotfiles/sync.sh"
+'7  28  7  ~/.dotfiles/sync.sh
+|4,55,28,7,1689350807,"~/.dotfiles/sync.sh"
+'8  28  7  ~/.dotfiles/sync.sh
+|4,56,28,7,1689350807,"~/.dotfiles/sync.sh"
+'9  26  7  ~/.dotfiles/sync.sh
+|4,57,26,7,1689350807,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  2  0  ~/.dotfiles/sync.sh
+|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
+-'  14  135  ~/.dotfiles/sync.sh
+|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
 -'  14  135  ~/.dotfiles/sync.sh
 |4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -262,10 +270,16 @@ $dotfiles
 |4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
 -'  26  7  ~/.dotfiles/sync.sh
 |4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
+-'  28  7  ~/.dotfiles/sync.sh
+|4,39,28,7,1689350807,"~/.dotfiles/sync.sh"
+-'  26  7  ~/.dotfiles/sync.sh
+|4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
 -'  26  7  ~/.dotfiles/sync.sh
 |4,39,26,7,1689350807,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689350471,"~/.dotfiles/sync.sh"
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
 -'  37  7  ~/.dotfiles/sync.sh
 |4,39,37,7,1689350378,"~/.dotfiles/sync.sh"
 -'  35  7  ~/.dotfiles/sync.sh
@@ -280,12 +294,18 @@ $dotfiles
 |4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  36  1  ~/.dotfiles/sync.sh
+|4,39,36,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  35  0  ~/.dotfiles/sync.sh
 |4,39,35,0,1689344654,"~/.dotfiles/sync.sh"
 -'  33  0  ~/.dotfiles/sync.sh
@@ -298,6 +318,8 @@ $dotfiles
 |4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689344272,"~/.dotfiles/sync.sh"
+-'  30  20  ~/.dotfiles/sync.sh
+|4,39,30,20,1689343094,"~/.dotfiles/sync.sh"
 -'  30  20  ~/.dotfiles/sync.sh
 |4,39,30,20,1689343094,"~/.dotfiles/sync.sh"
 -'  28  20  ~/.dotfiles/sync.sh
@@ -430,36 +452,13 @@ $dotfiles
 |4,39,301,0,1689342836,"~/tmux-client-51418.log"
 -'  301  0  ~/tmux-client-51418.log
 |4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  301  0  ~/tmux-client-51418.log
-|4,39,301,0,1689342836,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
--'  1  0  ~/tmux-client-51418.log
-|4,39,1,0,1689342812,"~/tmux-client-51418.log"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/sync.sh
-	*	1689351771	0
-	"	14	135
-	^	14	136
-	.	14	135
+	*	1689352554	0
+	"	37	0
+	.	38	0
 	+	27	0
 	+	26	7
 	+	29	61
@@ -475,6 +474,7 @@ $dotfiles
 	+	28	8
 	+	18	102
 	+	14	135
+	+	38	0
 
 > ~/tmux-client-51418.log
 	*	1689342830	0
