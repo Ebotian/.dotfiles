@@ -11,3 +11,5 @@
 	graphd = log --all --graph --decorate 
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
