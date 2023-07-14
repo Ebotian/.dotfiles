@@ -230,34 +230,44 @@ $dotfiles
 |3,1,36,0,1,0,1689344642,"4"
 
 # File marks:
-'0  34  1  ~/.dotfiles/sync.sh
-|4,48,34,1,1689344700,"~/.dotfiles/sync.sh"
-'1  28  20  ~/.dotfiles/sync.sh
-|4,49,28,20,1689343094,"~/.dotfiles/sync.sh"
-'2  28  20  ~/.dotfiles/sync.sh
-|4,50,28,20,1689343094,"~/.dotfiles/sync.sh"
-'3  301  0  ~/tmux-client-51418.log
-|4,51,301,0,1689342836,"~/tmux-client-51418.log"
-'4  2  0  ~/.lesshst
-|4,52,2,0,1689342784,"~/.lesshst"
-'5  3  0  ~/.dotfiles/.git/MERGE_MSG
-|4,53,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
-'6  15  0  ~/.dotfiles/.gitconfig
-|4,54,15,0,1689342199,"~/.dotfiles/.gitconfig"
-'7  15  14  ~/.dotfiles/.gitconfig
-|4,55,15,14,1689342073,"~/.dotfiles/.gitconfig"
-'8  1  0  ~/.dotfiles/.gitconfig
-|4,56,1,0,1689341950,"~/.dotfiles/.gitconfig"
-'9  1  0  ~/.dotfiles/.gitconfig
-|4,57,1,0,1689341950,"~/.dotfiles/.gitconfig"
+'0  35  7  ~/.dotfiles/sync.sh
+|4,48,35,7,1689350378,"~/.dotfiles/sync.sh"
+'1  34  1  ~/.dotfiles/sync.sh
+|4,49,34,1,1689344700,"~/.dotfiles/sync.sh"
+'2  34  1  ~/.dotfiles/sync.sh
+|4,50,34,1,1689344700,"~/.dotfiles/sync.sh"
+'3  28  20  ~/.dotfiles/sync.sh
+|4,51,28,20,1689343094,"~/.dotfiles/sync.sh"
+'4  28  20  ~/.dotfiles/sync.sh
+|4,52,28,20,1689343094,"~/.dotfiles/sync.sh"
+'5  28  20  ~/.dotfiles/sync.sh
+|4,53,28,20,1689343094,"~/.dotfiles/sync.sh"
+'6  28  20  ~/.dotfiles/sync.sh
+|4,54,28,20,1689343094,"~/.dotfiles/sync.sh"
+'7  301  0  ~/tmux-client-51418.log
+|4,55,301,0,1689342836,"~/tmux-client-51418.log"
+'8  2  0  ~/.lesshst
+|4,56,2,0,1689342784,"~/.lesshst"
+'9  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,57,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  35  7  ~/.dotfiles/sync.sh
+|4,39,35,7,1689350378,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689350362,"~/.dotfiles/sync.sh"
+-'  34  1  ~/.dotfiles/sync.sh
+|4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  34  1  ~/.dotfiles/sync.sh
 |4,39,34,1,1689344700,"~/.dotfiles/sync.sh"
 -'  33  0  ~/.dotfiles/sync.sh
 |4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
+-'  33  0  ~/.dotfiles/sync.sh
+|4,39,33,0,1689344654,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689344272,"~/.dotfiles/sync.sh"
+-'  28  20  ~/.dotfiles/sync.sh
+|4,39,28,20,1689343094,"~/.dotfiles/sync.sh"
 -'  28  20  ~/.dotfiles/sync.sh
 |4,39,28,20,1689343094,"~/.dotfiles/sync.sh"
 -'  28  20  ~/.dotfiles/sync.sh
@@ -272,6 +282,22 @@ $dotfiles
 |4,39,301,0,1689342836,"~/tmux-client-51418.log"
 -'  301  0  ~/tmux-client-51418.log
 |4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
 -'  1  0  ~/tmux-client-51418.log
 |4,39,1,0,1689342812,"~/tmux-client-51418.log"
 -'  1  0  ~/tmux-client-51418.log
@@ -296,6 +322,38 @@ $dotfiles
 |4,39,2,0,1689342784,"~/.lesshst"
 -'  2  0  ~/.lesshst
 |4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
 -'  1  0  ~/.lesshst
 |4,39,1,0,1689342731,"~/.lesshst"
 -'  1  0  ~/.lesshst
@@ -344,6 +402,38 @@ $dotfiles
 |4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
 -'  3  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.dotfiles/.git/MERGE_MSG
@@ -362,104 +452,14 @@ $dotfiles
 |4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  1  0  ~/.dotfiles/.git/MERGE_MSG
-|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  15  0  ~/.dotfiles/.gitconfig
-|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
--'  14  0  ~/.dotfiles/.gitconfig
-|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/sync.sh
-	*	1689344699	0
-	"	34	1
-	^	34	2
-	.	34	0
+	*	1689350377	0
+	"	35	7
+	^	35	8
+	.	35	7
 	+	25	0
 	+	24	7
 	+	27	61
@@ -469,6 +469,7 @@ $dotfiles
 	+	32	0
 	+	33	0
 	+	34	0
+	+	35	7
 
 > ~/tmux-client-51418.log
 	*	1689342830	0

@@ -32,3 +32,4 @@ git push "$GITHUB_REPO" main
 # 3. git clone it to local
 # 4. run the shell script to get all things done
 # 5. check if everything goes right
+cd $HOME
