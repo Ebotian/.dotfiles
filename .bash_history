@@ -753,3 +753,4 @@ zsh
 bash
 alias
 zsh
+exit
