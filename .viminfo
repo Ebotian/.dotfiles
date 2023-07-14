@@ -230,38 +230,54 @@ $dotfiles
 |3,0,36,0,1,0,1689276317,"push"
 
 # File marks:
-'0  1  11  ~/.dotfiles/.gitignore
-|4,48,1,11,1689340522,"~/.dotfiles/.gitignore"
-'1  27  39  ~/.dotfiles/sync.sh
-|4,49,27,39,1689284352,"~/.dotfiles/sync.sh"
-'2  142  31  ~/.dotfiles/.bashrc
-|4,50,142,31,1689283912,"~/.dotfiles/.bashrc"
-'3  134  31  ~/.dotfiles/.zshrc
-|4,51,134,31,1689283892,"~/.dotfiles/.zshrc"
-'4  1  0  ~/.dotfiles/.gitignore
-|4,52,1,0,1689283709,"~/.dotfiles/.gitignore"
-'5  1  11  ~/.dotfiles/.gitignore
-|4,53,1,11,1689277442,"~/.dotfiles/.gitignore"
+'0  1  0  ~/start.sh
+|4,48,1,0,1689341493,"~/start.sh"
+'1  1  11  ~/.dotfiles/.gitignore
+|4,49,1,11,1689340522,"~/.dotfiles/.gitignore"
+'2  27  39  ~/.dotfiles/sync.sh
+|4,50,27,39,1689284352,"~/.dotfiles/sync.sh"
+'3  142  31  ~/.dotfiles/.bashrc
+|4,51,142,31,1689283912,"~/.dotfiles/.bashrc"
+'4  134  31  ~/.dotfiles/.zshrc
+|4,52,134,31,1689283892,"~/.dotfiles/.zshrc"
+'5  1  0  ~/.dotfiles/.gitignore
+|4,53,1,0,1689283709,"~/.dotfiles/.gitignore"
 '6  1  11  ~/.dotfiles/.gitignore
 |4,54,1,11,1689277442,"~/.dotfiles/.gitignore"
-'7  24  7  ~/.dotfiles/sync.sh
-|4,55,24,7,1689276329,"~/.dotfiles/sync.sh"
+'7  1  11  ~/.dotfiles/.gitignore
+|4,55,1,11,1689277442,"~/.dotfiles/.gitignore"
 '8  24  7  ~/.dotfiles/sync.sh
 |4,56,24,7,1689276329,"~/.dotfiles/sync.sh"
-'9  16  54  ~/.allrc.sh
-|4,57,16,54,1689275905,"~/.allrc.sh"
+'9  24  7  ~/.dotfiles/sync.sh
+|4,57,24,7,1689276329,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
+-'  1  0  ~/start.sh
+|4,39,1,0,1689341493,"~/start.sh"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
 -'  1  11  ~/.dotfiles/.gitignore
 |4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
 -'  27  39  ~/.dotfiles/sync.sh
 |4,39,27,39,1689284352,"~/.dotfiles/sync.sh"
 -'  27  39  ~/.dotfiles/sync.sh
 |4,39,27,39,1689284352,"~/.dotfiles/sync.sh"
+-'  27  39  ~/.dotfiles/sync.sh
+|4,39,27,39,1689284352,"~/.dotfiles/sync.sh"
+-'  27  39  ~/.dotfiles/sync.sh
+|4,39,27,39,1689284352,"~/.dotfiles/sync.sh"
 -'  142  31  ~/.dotfiles/.bashrc
 |4,39,142,31,1689283912,"~/.dotfiles/.bashrc"
 -'  142  31  ~/.dotfiles/.bashrc
 |4,39,142,31,1689283912,"~/.dotfiles/.bashrc"
+-'  142  31  ~/.dotfiles/.bashrc
+|4,39,142,31,1689283912,"~/.dotfiles/.bashrc"
+-'  142  31  ~/.dotfiles/.bashrc
+|4,39,142,31,1689283912,"~/.dotfiles/.bashrc"
+-'  1  0  ~/.dotfiles/.bashrc
+|4,39,1,0,1689283905,"~/.dotfiles/.bashrc"
+-'  1  0  ~/.dotfiles/.bashrc
+|4,39,1,0,1689283905,"~/.dotfiles/.bashrc"
 -'  1  0  ~/.dotfiles/.bashrc
 |4,39,1,0,1689283905,"~/.dotfiles/.bashrc"
 -'  1  0  ~/.dotfiles/.bashrc
@@ -274,6 +290,18 @@ $dotfiles
 |4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
 -'  134  31  ~/.dotfiles/.zshrc
 |4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
+-'  134  31  ~/.dotfiles/.zshrc
+|4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
+-'  134  31  ~/.dotfiles/.zshrc
+|4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
+-'  134  31  ~/.dotfiles/.zshrc
+|4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
+-'  134  31  ~/.dotfiles/.zshrc
+|4,39,134,31,1689283892,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689283784,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689283784,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689283784,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -286,6 +314,14 @@ $dotfiles
 |4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
 |4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689283742,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.gitignore
 |4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
 -'  1  0  ~/.dotfiles/.gitignore
@@ -296,6 +332,26 @@ $dotfiles
 |4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
 -'  1  0  ~/.dotfiles/.gitignore
 |4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  0  ~/.dotfiles/.gitignore
+|4,39,1,0,1689283709,"~/.dotfiles/.gitignore"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
+-'  1  11  ~/.dotfiles/.gitignore
+|4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
 -'  1  11  ~/.dotfiles/.gitignore
 |4,39,1,11,1689277442,"~/.dotfiles/.gitignore"
 -'  1  11  ~/.dotfiles/.gitignore
@@ -374,86 +430,39 @@ $dotfiles
 |4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
 -'  24  7  ~/.dotfiles/sync.sh
 |4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689276269,"~/.dotfiles/sync.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
--'  16  54  ~/.allrc.sh
-|4,39,16,54,1689275905,"~/.allrc.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
+-'  24  7  ~/.dotfiles/sync.sh
+|4,39,24,7,1689276329,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/start.sh
+	*	1689341491	0
+	"	1	0
+	^	8	14
+	.	8	13
+	+	10	0
+	+	3	0
+	+	8	13
 
 > ~/.dotfiles/.gitignore
 	*	1689340522	0
@@ -806,15 +815,6 @@ $dotfiles
 > /etc/systemd/system/syslog.service
 	*	1687691591	0
 	"	1	0
-
-> ~/start.sh
-	*	1687685062	0
-	"	1	0
-	^	8	14
-	.	8	13
-	+	10	0
-	+	3	0
-	+	8	13
 
 > ~/tart.sh
 	*	1687684342	0
