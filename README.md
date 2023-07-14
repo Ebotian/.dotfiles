@@ -1,5 +1,6 @@
 # .dotfiles
 dotfiles across linux machines
+
 To sync dotfiles, run these in the shell:
 
 ```bash
