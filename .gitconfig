@@ -6,7 +6,6 @@
 [user]
 	name = Yibotian
 	email = yiboxiaotian@nuaa.edu.cn
-	signingkey = $HOME/.ssh/id_ed25519.pub
 [alias]
 	graphb = log --all --graph --decorate --oneline
 	graphd = log --all --graph --decorate 
@@ -14,5 +13,3 @@
 	defaultBranch = main
 [pull]
 	rebase = false
-[gpg]
-	format = ssh
