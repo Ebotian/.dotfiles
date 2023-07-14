@@ -230,20 +230,20 @@ $dotfiles
 |3,0,36,0,1,0,1689352796," "
 
 # File marks:
-'0  15  1  ~/.gitconfig
-|4,48,15,1,1689361239,"~/.gitconfig"
-'1  9  38  ~/.dotfiles/.gitconfig
-|4,49,9,38,1689354571,"~/.dotfiles/.gitconfig"
-'2  40  0  ~/.dotfiles/.tmux.conf
-|4,50,40,0,1689353274,"~/.dotfiles/.tmux.conf"
-'3  38  0  ~/.dotfiles/sync.sh
-|4,51,38,0,1689352828,"~/.dotfiles/sync.sh"
-'4  37  0  ~/.dotfiles/sync.sh
-|4,52,37,0,1689352556,"~/.dotfiles/sync.sh"
+'0  1  0  ~/.dotfiles/.zshrc
+|4,48,1,0,1689361493,"~/.dotfiles/.zshrc"
+'1  15  1  ~/.gitconfig
+|4,49,15,1,1689361239,"~/.gitconfig"
+'2  9  38  ~/.dotfiles/.gitconfig
+|4,50,9,38,1689354571,"~/.dotfiles/.gitconfig"
+'3  40  0  ~/.dotfiles/.tmux.conf
+|4,51,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+'4  38  0  ~/.dotfiles/sync.sh
+|4,52,38,0,1689352828,"~/.dotfiles/sync.sh"
 '5  37  0  ~/.dotfiles/sync.sh
 |4,53,37,0,1689352556,"~/.dotfiles/sync.sh"
-'6  14  135  ~/.dotfiles/sync.sh
-|4,54,14,135,1689351776,"~/.dotfiles/sync.sh"
+'6  37  0  ~/.dotfiles/sync.sh
+|4,54,37,0,1689352556,"~/.dotfiles/sync.sh"
 '7  14  135  ~/.dotfiles/sync.sh
 |4,55,14,135,1689351776,"~/.dotfiles/sync.sh"
 '8  14  135  ~/.dotfiles/sync.sh
@@ -252,14 +252,28 @@ $dotfiles
 |4,57,14,135,1689351776,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689361493,"~/.dotfiles/.zshrc"
 -'  15  1  ~/.gitconfig
 |4,39,15,1,1689361239,"~/.gitconfig"
+-'  15  1  ~/.gitconfig
+|4,39,15,1,1689361239,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1689361100,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1689361100,"~/.gitconfig"
 -'  9  38  ~/.dotfiles/.gitconfig
 |4,39,9,38,1689354571,"~/.dotfiles/.gitconfig"
 -'  9  38  ~/.dotfiles/.gitconfig
 |4,39,9,38,1689354571,"~/.dotfiles/.gitconfig"
+-'  9  38  ~/.dotfiles/.gitconfig
+|4,39,9,38,1689354571,"~/.dotfiles/.gitconfig"
+-'  9  38  ~/.dotfiles/.gitconfig
+|4,39,9,38,1689354571,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689354369,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689354369,"~/.dotfiles/.gitconfig"
 -'  1  0  ~/.dotfiles/.gitconfig
 |4,39,1,0,1689354369,"~/.dotfiles/.gitconfig"
 -'  1  0  ~/.dotfiles/.gitconfig
@@ -272,6 +286,22 @@ $dotfiles
 |4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
 -'  40  0  ~/.dotfiles/.tmux.conf
 |4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  40  0  ~/.dotfiles/.tmux.conf
+|4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  40  0  ~/.dotfiles/.tmux.conf
+|4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  40  0  ~/.dotfiles/.tmux.conf
+|4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  40  0  ~/.dotfiles/.tmux.conf
+|4,39,40,0,1689353274,"~/.dotfiles/.tmux.conf"
+-'  1  0  ~/.dotfiles/.tmux.conf
+|4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
+-'  1  0  ~/.dotfiles/.tmux.conf
+|4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
+-'  1  0  ~/.dotfiles/.tmux.conf
+|4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
+-'  1  0  ~/.dotfiles/.tmux.conf
+|4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
 -'  1  0  ~/.dotfiles/.tmux.conf
 |4,39,1,0,1689352869,"~/.dotfiles/.tmux.conf"
 -'  1  0  ~/.dotfiles/.tmux.conf
@@ -296,6 +326,22 @@ $dotfiles
 |4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
 -'  38  0  ~/.dotfiles/sync.sh
 |4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
+-'  38  0  ~/.dotfiles/sync.sh
+|4,39,38,0,1689352828,"~/.dotfiles/sync.sh"
 -'  30  0  ~/.dotfiles/sync.sh
 |4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
 -'  30  0  ~/.dotfiles/sync.sh
@@ -312,6 +358,38 @@ $dotfiles
 |4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
 -'  30  0  ~/.dotfiles/sync.sh
 |4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  30  0  ~/.dotfiles/sync.sh
+|4,39,30,0,1689352782,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689352712,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -360,100 +438,29 @@ $dotfiles
 |4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
 -'  37  0  ~/.dotfiles/sync.sh
 |4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  2  0  ~/.dotfiles/sync.sh
-|4,39,2,0,1689352469,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689352465,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
--'  14  135  ~/.dotfiles/sync.sh
-|4,39,14,135,1689351776,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
+-'  37  0  ~/.dotfiles/sync.sh
+|4,39,37,0,1689352556,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles/.zshrc
+	*	1689361493	0
+	"	1	0
+	^	134	32
+	.	134	31
+	+	134	31
 
 > ~/.gitconfig
 	*	1689361155	0
@@ -555,13 +562,6 @@ $dotfiles
 	^	142	32
 	.	142	0
 	+	142	0
-
-> ~/.dotfiles/.zshrc
-	*	1689283874	0
-	"	134	31
-	^	134	32
-	.	134	31
-	+	134	31
 
 > ~/.allrc.sh
 	*	1689275879	0
