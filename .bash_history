@@ -754,3 +754,8 @@ bash
 alias
 zsh
 exit
+zsh
+exit
+zsh
+exut
+exit
