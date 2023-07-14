@@ -26,3 +26,9 @@ git pull "$GITHUB_REPO" main
 git push "$GITHUB_REPO" main
 # Add `source "$HOME/.dotfiles/sync.sh"` to .zshrc and .bashrc
 # Dose "dotdirectory" should also be sync?
+# how to push to github?
+# 1. sign in github
+# 2. create a new repository(with license and readme)
+# 3. git clone it to local
+# 4. run the shell script to get all things done
+# 5. check if everything goes right
