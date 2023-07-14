@@ -31,28 +31,32 @@
 |3,1,36,0,1,0,1689373385,"'"
 
 # File marks:
-'0  16  78  ~/.dotfiles/sync.sh
-|4,48,16,78,1689374399,"~/.dotfiles/sync.sh"
-'1  12  78  ~/.dotfiles/init.sh
-|4,49,12,78,1689374361,"~/.dotfiles/init.sh"
-'2  12  63  ~/.dotfiles/init.sh
-|4,50,12,63,1689373400,"~/.dotfiles/init.sh"
-'3  16  52  ~/.dotfiles/sync.sh
-|4,51,16,52,1689373301,"~/.dotfiles/sync.sh"
-'4  13  30  ~/.dotfiles/sync.sh
-|4,52,13,30,1689372994,"~/.dotfiles/sync.sh"
-'5  13  30  ~/.dotfiles/sync.sh
-|4,53,13,30,1689372994,"~/.dotfiles/sync.sh"
+'0  16  89  ~/.dotfiles/sync.sh
+|4,48,16,89,1689376240,"~/.dotfiles/sync.sh"
+'1  16  78  ~/.dotfiles/sync.sh
+|4,49,16,78,1689374399,"~/.dotfiles/sync.sh"
+'2  12  78  ~/.dotfiles/init.sh
+|4,50,12,78,1689374361,"~/.dotfiles/init.sh"
+'3  12  63  ~/.dotfiles/init.sh
+|4,51,12,63,1689373400,"~/.dotfiles/init.sh"
+'4  16  52  ~/.dotfiles/sync.sh
+|4,52,16,52,1689373301,"~/.dotfiles/sync.sh"
+'5  16  52  ~/.dotfiles/sync.sh
+|4,53,16,52,1689373301,"~/.dotfiles/sync.sh"
 '6  13  30  ~/.dotfiles/sync.sh
 |4,54,13,30,1689372994,"~/.dotfiles/sync.sh"
 '7  13  30  ~/.dotfiles/sync.sh
 |4,55,13,30,1689372994,"~/.dotfiles/sync.sh"
-'8  33  25  ~/.dotfiles/init.sh
-|4,56,33,25,1689372297,"~/.dotfiles/init.sh"
-'9  33  25  ~/.dotfiles/init.sh
-|4,57,33,25,1689372297,"~/.dotfiles/init.sh"
+'8  13  30  ~/.dotfiles/sync.sh
+|4,56,13,30,1689372994,"~/.dotfiles/sync.sh"
+'9  13  30  ~/.dotfiles/sync.sh
+|4,57,13,30,1689372994,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
+-'  16  89  ~/.dotfiles/sync.sh
+|4,39,16,89,1689376240,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689376194,"~/.dotfiles/sync.sh"
 -'  16  78  ~/.dotfiles/sync.sh
 |4,39,16,78,1689374399,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -61,10 +65,22 @@
 |4,39,12,78,1689374361,"~/.dotfiles/init.sh"
 -'  12  78  ~/.dotfiles/init.sh
 |4,39,12,78,1689374361,"~/.dotfiles/init.sh"
+-'  12  78  ~/.dotfiles/init.sh
+|4,39,12,78,1689374361,"~/.dotfiles/init.sh"
+-'  12  78  ~/.dotfiles/init.sh
+|4,39,12,78,1689374361,"~/.dotfiles/init.sh"
 -'  1  0  ~/.dotfiles/init.sh
 |4,39,1,0,1689374295,"~/.dotfiles/init.sh"
 -'  1  0  ~/.dotfiles/init.sh
 |4,39,1,0,1689374295,"~/.dotfiles/init.sh"
+-'  1  0  ~/.dotfiles/init.sh
+|4,39,1,0,1689374295,"~/.dotfiles/init.sh"
+-'  1  0  ~/.dotfiles/init.sh
+|4,39,1,0,1689374295,"~/.dotfiles/init.sh"
+-'  12  63  ~/.dotfiles/init.sh
+|4,39,12,63,1689373400,"~/.dotfiles/init.sh"
+-'  12  63  ~/.dotfiles/init.sh
+|4,39,12,63,1689373400,"~/.dotfiles/init.sh"
 -'  12  63  ~/.dotfiles/init.sh
 |4,39,12,63,1689373400,"~/.dotfiles/init.sh"
 -'  12  63  ~/.dotfiles/init.sh
@@ -77,6 +93,14 @@
 |4,39,33,25,1689373312,"~/.dotfiles/init.sh"
 -'  33  25  ~/.dotfiles/init.sh
 |4,39,33,25,1689373312,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689373312,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689373312,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689373312,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689373312,"~/.dotfiles/init.sh"
 -'  16  52  ~/.dotfiles/sync.sh
 |4,39,16,52,1689373301,"~/.dotfiles/sync.sh"
 -'  16  52  ~/.dotfiles/sync.sh
@@ -85,6 +109,8 @@
 |4,39,16,52,1689373301,"~/.dotfiles/sync.sh"
 -'  16  52  ~/.dotfiles/sync.sh
 |4,39,16,52,1689373301,"~/.dotfiles/sync.sh"
+-'  13  30  ~/.dotfiles/sync.sh
+|4,39,13,30,1689373180,"~/.dotfiles/sync.sh"
 -'  13  30  ~/.dotfiles/sync.sh
 |4,39,13,30,1689373180,"~/.dotfiles/sync.sh"
 -'  13  30  ~/.dotfiles/sync.sh
@@ -119,6 +145,38 @@
 |4,39,33,25,1689372297,"~/.dotfiles/init.sh"
 -'  33  25  ~/.dotfiles/init.sh
 |4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  33  25  ~/.dotfiles/init.sh
+|4,39,33,25,1689372297,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
+-'  12  52  ~/.dotfiles/init.sh
+|4,39,12,52,1689372230,"~/.dotfiles/init.sh"
 -'  12  52  ~/.dotfiles/init.sh
 |4,39,12,52,1689372230,"~/.dotfiles/init.sh"
 -'  12  52  ~/.dotfiles/init.sh
@@ -195,76 +253,18 @@
 |4,39,12,52,1689372061,"~/.dotfiles/init.sh"
 -'  12  52  ~/.dotfiles/init.sh
 |4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  12  52  ~/.dotfiles/init.sh
-|4,39,12,52,1689372061,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
--'  13  0  ~/.dotfiles/init.sh
-|4,39,13,0,1689372040,"~/.dotfiles/init.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/sync.sh
-	*	1689374399	0
-	"	16	78
-	^	16	79
-	.	16	78
+	*	1689376239	0
+	"	16	89
+	^	16	90
+	.	16	89
 	+	13	41
 	+	16	62
 	+	13	40
-	+	16	78
+	+	16	89
 
 > ~/.dotfiles/init.sh
 	*	1689374357	0

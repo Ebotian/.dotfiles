@@ -13,7 +13,7 @@ cd "$DOTFILES_REPO"
 find $HOME -maxdepth 1 -type f -iregex '^.*/\..+$'| xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
 # Create symbolic links for all dotfiles in the repository
-find "$DOTFILES_REPO" -maxdepth 1 -type d,f -iregex '^.*/\..+$' ! -name '.git' -exec ln -sf {} $HOME \;
+find "$DOTFILES_REPO" -maxdepth 1 -type d,f -iregex '^.*/\..+$' ! -name '.git','.dotfiles' -exec ln -sf {} $HOME \;
 # {} is replaced by the current file name). The \; at the end of the command is used to terminate the -exec expression
 
 # Add all changes to the repository
