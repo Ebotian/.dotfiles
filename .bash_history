@@ -759,3 +759,5 @@ exit
 zsh
 exut
 exit
+zsh
+exit
