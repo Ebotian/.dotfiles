@@ -20,14 +20,14 @@
 $dotfiles
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1689342836,,"q"
 :w
 |2,0,1689283820,,"w"
 :wq
 |2,0,1689277442,,"wq"
 :%s/dotfiles.git/dotfiles/g
 |2,0,1689273584,,"%s/dotfiles.git/dotfiles/g"
-:q
-|2,0,1689181213,,"q"
 :%s/M-b/M-w/g
 |2,0,1688466628,,"%s/M-b/M-w/g"
 :%s/C-a/M-b/g
@@ -152,12 +152,12 @@ $dotfiles
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	git push "$GITHUB_REPO" main
-|3,0,0,1,1,0,1689276308,"git push \"$GITHUB_REPO\" main"
-""1	LINE	0
+""0	LINE	0
 	.zsh_history
-|3,1,1,1,1,0,1689283704,".zsh_history"
+|3,1,0,1,1,0,1689342770,".zsh_history"
+"1	LINE	0
+	.zsh_history
+|3,0,1,1,1,0,1689283704,".zsh_history"
 "2	LINE	0
 	#!/usr/bin/env bash
 	
@@ -230,36 +230,148 @@ $dotfiles
 |3,0,36,0,1,0,1689276317,"push"
 
 # File marks:
-'0  3  0  ~/.dotfiles/.git/MERGE_MSG
-|4,48,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
-'1  15  0  ~/.dotfiles/.gitconfig
-|4,49,15,0,1689342199,"~/.dotfiles/.gitconfig"
-'2  15  14  ~/.dotfiles/.gitconfig
-|4,50,15,14,1689342073,"~/.dotfiles/.gitconfig"
-'3  1  0  ~/.dotfiles/.gitconfig
-|4,51,1,0,1689341950,"~/.dotfiles/.gitconfig"
-'4  1  0  ~/.dotfiles/.gitconfig
-|4,52,1,0,1689341950,"~/.dotfiles/.gitconfig"
-'5  1  0  ~/.dotfiles/.gitconfig
-|4,53,1,0,1689341950,"~/.dotfiles/.gitconfig"
+'0  28  20  ~/.dotfiles/sync.sh
+|4,48,28,20,1689343094,"~/.dotfiles/sync.sh"
+'1  301  0  ~/tmux-client-51418.log
+|4,49,301,0,1689342836,"~/tmux-client-51418.log"
+'2  2  0  ~/.lesshst
+|4,50,2,0,1689342784,"~/.lesshst"
+'3  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,51,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+'4  15  0  ~/.dotfiles/.gitconfig
+|4,52,15,0,1689342199,"~/.dotfiles/.gitconfig"
+'5  15  14  ~/.dotfiles/.gitconfig
+|4,53,15,14,1689342073,"~/.dotfiles/.gitconfig"
 '6  1  0  ~/.dotfiles/.gitconfig
 |4,54,1,0,1689341950,"~/.dotfiles/.gitconfig"
 '7  1  0  ~/.dotfiles/.gitconfig
-|4,55,1,0,1689341912,"~/.dotfiles/.gitconfig"
+|4,55,1,0,1689341950,"~/.dotfiles/.gitconfig"
 '8  1  0  ~/.dotfiles/.gitconfig
-|4,56,1,0,1689341912,"~/.dotfiles/.gitconfig"
+|4,56,1,0,1689341950,"~/.dotfiles/.gitconfig"
 '9  1  0  ~/.dotfiles/.gitconfig
-|4,57,1,0,1689341912,"~/.dotfiles/.gitconfig"
+|4,57,1,0,1689341950,"~/.dotfiles/.gitconfig"
 
 # Jumplist (newest first):
+-'  28  20  ~/.dotfiles/sync.sh
+|4,39,28,20,1689343094,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/sync.sh
+|4,39,1,0,1689343044,"~/.dotfiles/sync.sh"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  301  0  ~/tmux-client-51418.log
+|4,39,301,0,1689342836,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
+-'  1  0  ~/tmux-client-51418.log
+|4,39,1,0,1689342812,"~/tmux-client-51418.log"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  2  0  ~/.lesshst
+|4,39,2,0,1689342784,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
+-'  1  0  ~/.lesshst
+|4,39,1,0,1689342731,"~/.lesshst"
 -'  3  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  3  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,3,0,1689342225,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,1,0,1689342208,"~/.dotfiles/.git/MERGE_MSG"
 -'  15  0  ~/.dotfiles/.gitconfig
 |4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
 -'  15  0  ~/.dotfiles/.gitconfig
 |4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  15  0  ~/.dotfiles/.gitconfig
+|4,39,15,0,1689342199,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
+-'  14  0  ~/.dotfiles/.gitconfig
+|4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
 -'  14  0  ~/.dotfiles/.gitconfig
 |4,39,14,0,1689342181,"~/.dotfiles/.gitconfig"
 -'  14  0  ~/.dotfiles/.gitconfig
@@ -268,6 +380,62 @@ $dotfiles
 |4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
 -'  13  18  ~/.dotfiles/.gitconfig
 |4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  13  18  ~/.dotfiles/.gitconfig
+|4,39,13,18,1689342179,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
+-'  1  0  ~/.dotfiles/.gitconfig
+|4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
 -'  1  0  ~/.dotfiles/.gitconfig
 |4,39,1,0,1689342169,"~/.dotfiles/.gitconfig"
 -'  1  0  ~/.dotfiles/.gitconfig
@@ -276,184 +444,41 @@ $dotfiles
 |4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
 -'  15  14  ~/.dotfiles/.gitconfig
 |4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689342003,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689342003,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689341950,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689341950,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689341912,"~/.dotfiles/.gitconfig"
--'  1  0  ~/.dotfiles/.gitconfig
-|4,39,1,0,1689341912,"~/.dotfiles/.gitconfig"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  0  ~/start.sh
-|4,39,1,0,1689341493,"~/start.sh"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
--'  1  11  ~/.dotfiles/.gitignore
-|4,39,1,11,1689340522,"~/.dotfiles/.gitignore"
+-'  15  14  ~/.dotfiles/.gitconfig
+|4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
+-'  15  14  ~/.dotfiles/.gitconfig
+|4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
+-'  15  14  ~/.dotfiles/.gitconfig
+|4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
+-'  15  14  ~/.dotfiles/.gitconfig
+|4,39,15,14,1689342073,"~/.dotfiles/.gitconfig"
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles/sync.sh
+	*	1689343094	0
+	"	28	20
+	^	28	21
+	.	28	20
+	+	25	0
+	+	24	7
+	+	27	61
+	+	28	20
+
+> ~/tmux-client-51418.log
+	*	1689342830	0
+	"	301	0
+
+> ~/.lesshst
+	*	1689342781	0
+	"	2	0
+
+> ~/ControlP
+	*	1689342780	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
 
 > ~/.dotfiles/.git/MERGE_MSG
 	*	1689342224	0
@@ -484,15 +509,6 @@ $dotfiles
 	.	2	0
 	+	1	12
 	+	2	0
-
-> ~/.dotfiles/sync.sh
-	*	1689284226	0
-	"	27	39
-	^	27	62
-	.	27	61
-	+	25	0
-	+	24	7
-	+	27	61
 
 > ~/.dotfiles/.bashrc
 	*	1689283912	0

@@ -25,3 +25,4 @@ git pull "$GITHUB_REPO" main
 # Push the changes to the GitHub repository
 git push "$GITHUB_REPO" main
 # Add `source "$HOME/.dotfiles/sync.sh"` to .zshrc and .bashrc
+# Dose "dotdirectory" should also be sync?
