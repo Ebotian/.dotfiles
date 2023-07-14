@@ -23,9 +23,9 @@ git add --all
 # Commit the changes with a message containing the current date and hostname
 git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname)"
 
-git pull
+#git pull
 # Push the changes to the GitHub repository
-git push
+#git push
 # Add `source "$HOME/.dotfiles/sync.sh"` to .zshrc and .bashrc
 # Dose "dotdirectory" should also be sync?
 # how to push to github?
