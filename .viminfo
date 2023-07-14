@@ -21,25 +21,25 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	find "$DOTFILES_REPO" -maxdepth 1 -type d,f ( -path "$DOTFILES_REPO/.git" -prune -o -path "$DOTFILES_REPO/.dotfiles" -prune ) -o -iregex '^.*/\..+$' ! -name '.git' ! -name '.dotfiles' -exec ln -sf {} $HOME \;
-|3,1,1,1,1,0,1689377171,"find \"$DOTFILES_REPO\" -maxdepth 1 -type d,f ( -path \"$DOTFILES_REPO/.git\" -prune -o -path \"$DOTFILES_REPO/.dotfiles\" -prune ) -o -iregex '^.*/\\..+$' ! -name '.git' ! -name '.dotfiles' -exec ln -sf {} $HOME \\;"
+""-	CHAR	0
+	.
+|3,1,36,0,1,0,1689379092,"."
 
 # File marks:
-'0  17  0  ~/.dotfiles/sync.sh
-|4,48,17,0,1689377178,"~/.dotfiles/sync.sh"
+'0  16  18  ~/.dotfiles/sync.sh
+|4,48,16,18,1689379140,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
--'  17  0  ~/.dotfiles/sync.sh
-|4,39,17,0,1689377178,"~/.dotfiles/sync.sh"
+-'  16  18  ~/.dotfiles/sync.sh
+|4,39,16,18,1689379140,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689377161,"~/.dotfiles/sync.sh"
+|4,39,1,0,1689379067,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/sync.sh
-	*	1689377177	0
-	"	17	0
-	^	17	0
-	.	16	210
-	+	16	210
+	*	1689379130	0
+	"	16	18
+	^	16	19
+	.	16	18
+	+	16	18
