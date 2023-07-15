@@ -791,3 +791,5 @@ Xface-terminal
 xface-terminal
 gnome-terminal
 sudo apt install konsole
+zsh
+exit
