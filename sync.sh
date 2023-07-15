@@ -13,8 +13,6 @@ cd "$DOTFILES_REPO"
 find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$"| xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
 # Create symbolic links for all dotfiles in the repository
-find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
-'^.*dotfiles/\.(gitconfig)$' -exec ln -sf {} $HOME \;
 ln -sf $(pwd)/.gitconfig $HOME
 
 
