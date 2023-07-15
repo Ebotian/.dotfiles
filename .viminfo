@@ -5,7 +5,7 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
@@ -23,41 +23,58 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""1	LINE	0
+	[submodule ".vim/pack/pluins/start/ctrlp"]
+		path = .vim/pack/pluins/start/ctrlp
+		url = https://github.com/ctrlpvim/ctrlp.vim.git
+|3,1,1,1,3,0,1689444443,"[submodule \".vim/pack/pluins/start/ctrlp\"]","	path = .vim/pack/pluins/start/ctrlp","	url = https://github.com/ctrlpvim/ctrlp.vim.git"
+"-	CHAR	0
 	#
-|3,1,36,0,1,0,1689442929,"#"
+|3,0,36,0,1,0,1689442929,"#"
 
 # File marks:
-'0  2  0  ~/.dotfiles/.git/MERGE_MSG
-|4,48,2,0,1689443513,"~/.dotfiles/.git/MERGE_MSG"
-'1  1  0  ~/.zshrc
-|4,49,1,0,1689443021,"~/.zshrc"
-'2  67  0  ~/.dotfiles/.zshrc
-|4,50,67,0,1689442975,"~/.dotfiles/.zshrc"
-'3  2  0  ~/.dotfiles/.zshrc
-|4,51,2,0,1689442843,"~/.dotfiles/.zshrc"
+'0  3  7  ~/.dotfiles/.gitmodules
+|4,48,3,7,1689444978,"~/.dotfiles/.gitmodules"
+'1  2  0  ~/.dotfiles/.git/MERGE_MSG
+|4,49,2,0,1689443513,"~/.dotfiles/.git/MERGE_MSG"
+'2  1  0  ~/.zshrc
+|4,50,1,0,1689443021,"~/.zshrc"
+'3  67  0  ~/.dotfiles/.zshrc
+|4,51,67,0,1689442975,"~/.dotfiles/.zshrc"
 '4  2  0  ~/.dotfiles/.zshrc
 |4,52,2,0,1689442843,"~/.dotfiles/.zshrc"
-'5  5  26  ~/.dotfiles/.zshrc
-|4,53,5,26,1689442452,"~/.dotfiles/.zshrc"
+'5  2  0  ~/.dotfiles/.zshrc
+|4,53,2,0,1689442843,"~/.dotfiles/.zshrc"
 '6  5  26  ~/.dotfiles/.zshrc
 |4,54,5,26,1689442452,"~/.dotfiles/.zshrc"
 '7  5  26  ~/.dotfiles/.zshrc
 |4,55,5,26,1689442452,"~/.dotfiles/.zshrc"
 '8  5  26  ~/.dotfiles/.zshrc
 |4,56,5,26,1689442452,"~/.dotfiles/.zshrc"
-'9  1  0  ~/.dotfiles/sync.sh
-|4,57,1,0,1689441958,"~/.dotfiles/sync.sh"
+'9  5  26  ~/.dotfiles/.zshrc
+|4,57,5,26,1689442452,"~/.dotfiles/.zshrc"
 
 # Jumplist (newest first):
+-'  3  7  ~/.dotfiles/.gitmodules
+|4,39,3,7,1689444978,"~/.dotfiles/.gitmodules"
+-'  1  0  ~/.dotfiles/.gitmodules
+|4,39,1,0,1689444435,"~/.dotfiles/.gitmodules"
 -'  2  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,2,0,1689443513,"~/.dotfiles/.git/MERGE_MSG"
+-'  2  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,2,0,1689443513,"~/.dotfiles/.git/MERGE_MSG"
+-'  1  0  ~/.dotfiles/.git/MERGE_MSG
+|4,39,1,0,1689443508,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.dotfiles/.git/MERGE_MSG
 |4,39,1,0,1689443508,"~/.dotfiles/.git/MERGE_MSG"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1689443021,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1689443021,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1689443021,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1689443021,"~/.zshrc"
 -'  67  0  ~/.dotfiles/.zshrc
 |4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
 -'  67  0  ~/.dotfiles/.zshrc
@@ -66,6 +83,22 @@
 |4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
 -'  67  0  ~/.dotfiles/.zshrc
 |4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
+-'  67  0  ~/.dotfiles/.zshrc
+|4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
+-'  67  0  ~/.dotfiles/.zshrc
+|4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
+-'  67  0  ~/.dotfiles/.zshrc
+|4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
+-'  67  0  ~/.dotfiles/.zshrc
+|4,39,67,0,1689442975,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442848,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442848,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442848,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442848,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
 |4,39,1,0,1689442848,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
@@ -90,6 +123,30 @@
 |4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
 -'  2  0  ~/.dotfiles/.zshrc
 |4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  2  0  ~/.dotfiles/.zshrc
+|4,39,2,0,1689442843,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442819,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442819,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442819,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442819,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
 |4,39,1,0,1689442819,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
@@ -122,6 +179,30 @@
 |4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
 -'  5  26  ~/.dotfiles/.zshrc
 |4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
+-'  5  26  ~/.dotfiles/.zshrc
+|4,39,5,26,1689442452,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
 |4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
@@ -130,34 +211,14 @@
 |4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/.zshrc
 |4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
+-'  1  0  ~/.dotfiles/.zshrc
+|4,39,1,0,1689442389,"~/.dotfiles/.zshrc"
 -'  1  0  ~/.dotfiles/sync.sh
 |4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
@@ -196,6 +257,12 @@
 |4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles/.gitmodules
+	*	1689444462	0
+	"	3	7
+	.	4	0
+	+	4	0
 
 > ~/.dotfiles/.git/MERGE_MSG
 	*	1689443511	0
