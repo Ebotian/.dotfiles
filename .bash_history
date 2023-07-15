@@ -761,3 +761,5 @@ exut
 exit
 zsh
 exit
+zsh
+exit
