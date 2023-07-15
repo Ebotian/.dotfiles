@@ -790,3 +790,4 @@ Xface-Terminal
 Xface-terminal
 xface-terminal
 gnome-terminal
+sudo apt install konsole
