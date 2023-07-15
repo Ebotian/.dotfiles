@@ -782,3 +782,11 @@ zsh
 la
 ll
 zsh
+gnome-terminal
+which gnome-terminal
+terminal
+Xface Terminal
+Xface-Terminal
+Xface-terminal
+xface-terminal
+gnome-terminal
