@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1689439736,,"q"
+|2,0,1689441958,,"q"
 
 # Search String History (newest to oldest):
 
@@ -23,98 +23,17 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
-|3,0,0,1,1,0,1689440582,"find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\\.[^git].*$' -exec ln -sf {} $HOME \\;"
-""1	LINE	0
-	'^.*dotfiles/\.(gitconfig)$' -exec ln -sf {} $HOME \;
-|3,1,1,1,1,0,1689441381,"'^.*dotfiles/\\.(gitconfig)$' -exec ln -sf {} $HOME \\;"
-"2	LINE	0
-	find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
-|3,0,2,1,1,0,1689441378,"find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\\.[^git].*$' -exec ln -sf {} $HOME \\;"
-"3	LINE	0
-	ln -sf .gitconfig $HOME
-|3,0,3,1,1,0,1689441328,"ln -sf .gitconfig $HOME"
-"4	CHAR	0
-	[^git]
-|3,0,4,0,1,0,1689440600,"[^git]"
-"-	CHAR	0
-	iregex 
-|3,0,36,0,1,0,1689441076,"iregex "
 
 # File marks:
-'0  16  0  ~/.dotfiles/sync.sh
-|4,48,16,0,1689441386,"~/.dotfiles/sync.sh"
-'1  18  29  ~/.dotfiles/sync.sh
-|4,49,18,29,1689441339,"~/.dotfiles/sync.sh"
-'2  16  60  ~/.dotfiles/sync.sh
-|4,50,16,60,1689440925,"~/.dotfiles/sync.sh"
-'3  16  60  ~/.dotfiles/sync.sh
-|4,51,16,60,1689440925,"~/.dotfiles/sync.sh"
-'4  17  60  ~/.dotfiles/sync.sh
-|4,52,17,60,1689440925,"~/.dotfiles/sync.sh"
-'5  17  60  ~/.dotfiles/sync.sh
-|4,53,17,60,1689440925,"~/.dotfiles/sync.sh"
-'6  16  76  ~/.dotfiles/sync.sh
-|4,54,16,76,1689440853,"~/.dotfiles/sync.sh"
-'7  16  76  ~/.dotfiles/sync.sh
-|4,55,16,76,1689440853,"~/.dotfiles/sync.sh"
-'8  17  76  ~/.dotfiles/sync.sh
-|4,56,17,76,1689440853,"~/.dotfiles/sync.sh"
-'9  17  76  ~/.dotfiles/sync.sh
-|4,57,17,76,1689440853,"~/.dotfiles/sync.sh"
+'0  1  0  ~/.dotfiles/sync.sh
+|4,48,1,0,1689441958,"~/.dotfiles/sync.sh"
 
 # Jumplist (newest first):
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689441386,"~/.dotfiles/sync.sh"
 -'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441366,"~/.dotfiles/sync.sh"
--'  18  29  ~/.dotfiles/sync.sh
-|4,39,18,29,1689441339,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689441058,"~/.dotfiles/sync.sh"
--'  17  60  ~/.dotfiles/sync.sh
-|4,39,17,60,1689440925,"~/.dotfiles/sync.sh"
--'  17  60  ~/.dotfiles/sync.sh
-|4,39,17,60,1689440925,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689440882,"~/.dotfiles/sync.sh"
--'  17  76  ~/.dotfiles/sync.sh
-|4,39,17,76,1689440853,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689440784,"~/.dotfiles/sync.sh"
--'  17  71  ~/.dotfiles/sync.sh
-|4,39,17,71,1689440679,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689440564,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439737,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439737,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439737,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439737,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439737,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689439704,"~/.dotfiles/sync.sh"
--'  16  0  ~/.dotfiles/sync.sh
-|4,39,16,0,1689439577,"~/.dotfiles/sync.sh"
--'  1  0  ~/.dotfiles/sync.sh
-|4,39,1,0,1689439566,"~/.dotfiles/sync.sh"
+|4,39,1,0,1689441958,"~/.dotfiles/sync.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.dotfiles/sync.sh
-	*	1689441386	0
-	"	16	0
-	^	16	30
-	.	16	0
-	+	16	0
-	+	16	62
-	+	16	38
-	+	16	75
-	+	16	76
-	+	16	74
-	+	16	0
+	*	1689441584	0
+	"	1	0
