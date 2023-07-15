@@ -793,3 +793,15 @@ gnome-terminal
 sudo apt install konsole
 zsh
 exit
+zsh
+exit
+zsh
+vim .gitmodules 
+source .zshrc
+zsh
+zsh
+cat /etc/shells
+echo $SHELL
+chsh -s /bin/zsh
+zsh
+zsh
