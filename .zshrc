@@ -71,8 +71,8 @@ ZSH_THEME="clean"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	zsh-autosuggestions
+    git
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -132,3 +132,4 @@ source $HOME/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 export VISUAL=vim
 export EDITOR=vim
 source "$HOME/.dotfiles/sync.sh"
+zplug "jeffreytse/zsh-vi-mode"
