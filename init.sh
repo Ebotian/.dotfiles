@@ -17,6 +17,7 @@ rmdir .zsh-vi-mode;git clone https://github.com/jeffreytse/zsh-vi-mode.git .zsh-
 # Create symbolic links for all dotfiles in the repository
 find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
 ln -sf $(pwd)/.gitconfig $HOME
+ln -sf $(pwd)/.tmux.conf $HOME
 
 # Move all dotfiles from $HOME to the repository
 find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"
