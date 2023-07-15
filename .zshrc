@@ -73,6 +73,7 @@ ENABLE_CORRECTION="true"
 plugins=(
     git
     zsh-autosuggestions
+    zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -130,5 +131,4 @@ alias rsed="sed -r"
 
 export VISUAL=vim
 export EDITOR=vim
-plugins+=(zsh-vi-mode)
 source "$HOME/.dotfiles/sync.sh"
