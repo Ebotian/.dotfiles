@@ -74,7 +74,6 @@ plugins=(
     git
     zsh-autosuggestions
 )
-plugins+=(zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 

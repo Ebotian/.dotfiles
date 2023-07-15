@@ -9,6 +9,8 @@ GITHUB_REPO="https://github.com/Ebotian/.dotfiles.git"
 
 # Change to the dotfiles repository directory
 cd "$DOTFILES_REPO"
+# connect to github
+ssh -T git@github.com
 # Clone sub git repo
 rmdir .oh-my-zsh;git clone git@github.com:Ebotian/.oh-my-zsh.git
 rmdir .zsh-vi-mode;git clone https://github.com/jeffreytse/zsh-vi-mode.git .zsh-vi-mode
@@ -20,6 +22,8 @@ ln -sf $(pwd)/.gitconfig $HOME
 find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
 # {} is replaced by the current file name). The \; at the end of the command is used to terminate the -exec expression
+# log plugin
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Add all changes to the repository
 git add --all
