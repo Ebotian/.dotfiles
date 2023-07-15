@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.dotfiles/.oh-my-zsh"
@@ -25,7 +25,7 @@ ZSH_THEME="clean"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+ zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -41,7 +41,7 @@ ZSH_THEME="clean"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
