@@ -806,3 +806,5 @@ chsh -s /bin/zsh
 zsh
 zsh
 exit
+zsh
+exit
