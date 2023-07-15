@@ -763,3 +763,31 @@ zsh
 exit
 zsh
 exit
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "yiboxiaotian@nuaa.edu.cn"
+cd .ssh
+la
+cat id_ed25519.pub 
+ssh -T g
+ssh -T git@github.com
+cd
+git clone git@github.com:Ebotian/.dotfiles.git
+rf -rm .dotfiles
+rm -rf .dotfiles
+git clone git@github.com:Ebotian/.dotfiles.git
+la
+zsh
+vim .gitconfig
+zsh
+la
+ll
+zsh
+gnome-terminal
+which gnome-terminal
+terminal
+Xface Terminal
+Xface-Terminal
+Xface-terminal
+xface-terminal
+gnome-terminal
+sudo apt install konsole

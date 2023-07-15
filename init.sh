@@ -6,6 +6,10 @@ DOTFILES_REPO="$HOME/.dotfiles"
 # Set the URL of your GitHub repository
 GITHUB_REPO="https://github.com/Ebotian/.dotfiles.git"
 
+# clone sub git repo
+rmdir .oh-my-zsh;git clone git@github.com:Ebotian/.oh-my-zsh.git
+
+
 # Change to the dotfiles repository directory
 cd "$DOTFILES_REPO"
 # Create symbolic links for all dotfiles in the repository
