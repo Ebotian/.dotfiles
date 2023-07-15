@@ -73,8 +73,8 @@ ENABLE_CORRECTION="true"
 plugins=(
     git
     zsh-autosuggestions
-    zsh-vi-mode
 )
+plugins+=(zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
