@@ -128,7 +128,7 @@ alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
 
-source $HOME/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 export VISUAL=vim
 export EDITOR=vim
+plugins+=(zsh-vi-mode)
 source "$HOME/.dotfiles/sync.sh"
