@@ -8,3 +8,5 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[core]
+	excludesfile = /home/yibotian/.gitignore_global
