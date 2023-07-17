@@ -805,3 +805,4 @@ echo $SHELL
 chsh -s /bin/zsh
 zsh
 zsh
+zsh
