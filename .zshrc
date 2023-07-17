@@ -134,3 +134,8 @@ source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source "$HOME/.dotfiles/sync.sh"
 
 cd $HOME
+export LANG=en_US.UTF-8
+export GDM_LANG=en_US.UTF-8
+export LANGUAGE=en_US
+export LC_ALL=en_US.UTF-8
+
