@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 # Set the path to your dotfiles repository
+
 DOTFILES_REPO="$HOME/.dotfiles"
 
 # Set the URL of your GitHub repository
+
 GITHUB_REPO="https://github.com/Ebotian/.dotfiles.git"
 
 # Change to the dotfiles repository directory
