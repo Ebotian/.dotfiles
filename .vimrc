@@ -12,7 +12,7 @@
 set nocompatible
 
 " Turn on syntax highlighting.
- syntax on
+" syntax on
 " use plugin ale instead
 
 " Disable the default Vim startup message.
