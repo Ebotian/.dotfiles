@@ -127,9 +127,11 @@ proxyoff() {
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
+alias nv="nvim"
 
 export VISUAL=vim
 export EDITOR=vim
+export VIM=$HOME/.nvim
 source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source "$HOME/.dotfiles/sync.sh"
 
