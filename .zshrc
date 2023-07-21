@@ -144,4 +144,4 @@ export LC_ALL=en_US.UTF-8
 # Nodejs
 VERSION=v18.17.0
 DISTRO=linux-x64
-export PATH="/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH"
+export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
