@@ -18,7 +18,8 @@ rmdir .zsh-vi-mode;git clone https://github.com/jeffreytse/zsh-vi-mode.git .zsh-
 find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
 ln -sf $(pwd)/.gitconfig $HOME
 ln -sf $(pwd)/.tmux.conf $HOME
-
+mkdir -p $HOME/.config/nvim && ln -sf $(pwd)/init.vim $HOME/.config/nvim
+mkdir -p $HOME/.local/share/nvim/site/autoload && ln -sf $(pwd)/plug.vim $HOME/.local/share/nvim/site/autoload
 # Move all dotfiles from $HOME to the repository
 find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
