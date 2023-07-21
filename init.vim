@@ -7,27 +7,40 @@ set relativenumber
 
 " Plugs"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-call plug#begin('~/.nvim/plug')
+call plug#begin('/home/yibotian/.local/share/nvim/plug')
+" WITHOUT FULLY UNDERSTAND YOU CAN NOT TRUST
 " add plugs here:
-Plug 'dense-analysis/ale'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+
+" ale linter fixer and formater
+" Plug 'dense-analysis/ale'
+
+" telescope and dependencies(file find)
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
 " or                                , { 'branch': '0.1.x' }
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-" tabular plugin is used to format tables
-Plug 'godlygeek/tabular'
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+
+" snips
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
+
 " JSON front matter highlight plugin
 Plug 'elzr/vim-json'
+
+" markdown
 Plug 'plasticboy/vim-markdown'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+" tabular plugin is used to format tables
+" Plug 'godlygeek/tabular'
+
+" I don't like pandoc-syntax
+" Plug 'vim-pandoc/vim-pandoc-syntax'
+
+" it doesn't work and have no error message
 " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
 
 let g:python3_host_prog = '/usr/bin/python3'
-let g:node_host_prog = '/usr/bin/node'
 
 " Markdown settings"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -45,10 +58,3 @@ let g:vim_markdown_math = 1
 let g:vim_markdown_frontmatter = 1  " for YAML format
 let g:vim_markdown_toml_frontmatter = 1  " for TOML format
 let g:vim_markdown_json_frontmatter = 1  " for JSON format
-augroup pandoc_syntax
-    au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
-augroup END
-" do not close the preview tab when switching to other buffers
-let g:mkdp_auto_close = 0
-" keybinding to Preview Markdown in local browser
-nnoremap <M-p> :MarkdownPreview<CR>
