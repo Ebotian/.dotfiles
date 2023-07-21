@@ -25,3 +25,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# Nodejs
+VERSION=v18.17.0
+DISTRO=linux-x64
+export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
