@@ -1,4 +1,4 @@
-" include .v
+" include .vimrc
 source ~/.vimrc
 
 " Basic settings
@@ -100,8 +100,8 @@ nnoremap <silent> <leader>h :call CocActionAsync('doHover')<cr>
 "
 " Clangd settings
 let g:LanguageClient_serverCommands = {
-\ 'cpp': ['clangd'],
-\ 'c': ['clangd'],
+\ 'cpp': ['/usr/local/bin/clang+llvm/bin/clangd'],
+\ 'c': ['/usr/local/bin/clang+llvm/bin/clangd'],
 \ }
 " let g:LanguageClient_settings = {
 "     \ 'clangd.semanticHighlighting': v:ture,
