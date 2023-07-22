@@ -147,4 +147,4 @@ DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 
 #clang+llvm
-export PATH="/usr/local/bin/clang+llvm:$PATH"
+export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
