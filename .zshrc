@@ -145,3 +145,6 @@ export LC_ALL=en_US.UTF-8
 VERSION=v18.17.0
 DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
+
+#clang+llvm
+export PATH="/usr/local/bin/clang+llvm:$PATH"
