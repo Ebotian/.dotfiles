@@ -28,10 +28,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " github copilot
 Plug 'github/copilot.vim'
 " LanguageClient-neovim
-Plug 'autozimu/LanguageClient-neovim', {
-   \ 'branch': 'next',
-   \ 'do': 'bash install.sh',
-   \ }
+" Plug 'autozimu/LanguageClient-neovim', {
+"    \ 'branch': 'next',
+"    \ 'do': 'bash install.sh',
+"    \ }
 " ale linter fixer and formater
 " Plug 'dense-analysis/ale'
 
@@ -94,16 +94,17 @@ inoremap <silent><expr> <Tab>
 " The second part of the code remaps the behavior of the <Tab> key in insert mode. If the completion menu is visible, pressing <Tab> will select the next completion item. If the completion menu is not visible and the cursor is at the first column or before a whitespace character, pressing <Tab> will insert a tab character. Otherwise, it will refresh the completion suggestions
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
 " Use <S-Tab> navigate the completion list, <S-Tab> for <Shift-Tab>
-nnoremap <silent> <leader>h :call CocActionAsync('doHover')<cr>
+" nnoremap <silent> <leader>h :call CocActionAsync('doHover')<cr>
 " show documentation of symbol under cursor(cursor hover)
 " temporary don't konw how it is functioned
 "
 " Clangd settings
-let g:LanguageClient_serverCommands = {
-\ 'cpp': ['/usr/local/bin/clang+llvm/bin/clangd'],
-\ 'c': ['/usr/local/bin/clang+llvm/bin/clangd'],
-\ }
+" let g:LanguageClient_serverCommands = {
+" \ 'cpp': ['/usr/local/bin/clang+llvm/bin/clangd'],
+" \ 'c': ['/usr/local/bin/clang+llvm/bin/clangd'],
+" \ }
 " let g:LanguageClient_settings = {
 "     \ 'clangd.semanticHighlighting': v:ture,
 "     \ 'clangd.inlayHints': v:ture,
 " \}
+autocmd FileType json syntax match Comment +\/\/.\+$+
