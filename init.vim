@@ -28,10 +28,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " github copilot
 Plug 'github/copilot.vim'
 " LanguageClient-neovim
-" Plug 'autozimu/LanguageClient-neovim', {
-"    \ 'branch': 'next',
-"    \ 'do': 'bash install.sh',
-"    \ }
+Plug 'autozimu/LanguageClient-neovim', {
+   \ 'branch': 'next',
+   \ 'do': 'bash install.sh',
+   \ }
 " ale linter fixer and formater
 " Plug 'dense-analysis/ale'
 
@@ -99,10 +99,10 @@ nnoremap <silent> <leader>h :call CocActionAsync('doHover')<cr>
 " temporary don't konw how it is functioned
 "
 " Clangd settings
-" let g:LanguageClient_serverCommands = {
-" \ 'cpp': ['clangd'],
-" \ 'c': ['clangd'],
-" \ }
+let g:LanguageClient_serverCommands = {
+\ 'cpp': ['clangd'],
+\ 'c': ['clangd'],
+\ }
 " let g:LanguageClient_settings = {
 "     \ 'clangd.semanticHighlighting': v:ture,
 "     \ 'clangd.inlayHints': v:ture,
