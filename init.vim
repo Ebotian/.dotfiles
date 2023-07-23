@@ -108,3 +108,5 @@ inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
 "     \ 'clangd.inlayHints': v:ture,
 " \}
 autocmd FileType json syntax match Comment +\/\/.\+$+
+set clipboard=xclip
+
