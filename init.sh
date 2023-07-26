@@ -19,6 +19,7 @@ find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exe
 ln -sf $(pwd)/.gitconfig $HOME
 ln -sf $(pwd)/.tmux.conf $HOME
 mkdir -p $HOME/.config/nvim && ln -sf $(pwd)/init.vim $HOME/.config/nvim
+mkdir -p $HOME/.config/clangd && ln -sf $(pwd)/config.yaml $HOME/.config/config.yaml
 mkdir -p $HOME/.local/share/nvim/site/autoload && ln -sf $(pwd)/plug.vim $HOME/.local/share/nvim/site/autoload
 # Move all dotfiles from $HOME to the repository
 find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"

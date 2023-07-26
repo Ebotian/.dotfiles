@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: -Wall
+Diagnostics:
+  ClangTidy:
+    Add:
+      - hicpp*
+      - modernize*
+      - misc*
+      - readability*
+      - performance*
+      - bugprone*
+      - llvm*
+  UnusedIncludes: Strict
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
