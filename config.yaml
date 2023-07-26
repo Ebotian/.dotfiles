@@ -1,5 +1,5 @@
 CompileFlags:
-  Add: -Wall
+  Add: "-Wall"
 Diagnostics:
   ClangTidy:
     Add:
@@ -9,9 +9,11 @@ Diagnostics:
       - readability*
       - performance*
       - bugprone*
-      - llvm*
+      - llvm-*
+    CheckOptions:
+      readability-magic-numbers.IgnoredIntegerValues: "1;2;3;4;5;6;7;8;9"
   UnusedIncludes: Strict
 InlayHints:
-  Enabled: Yes
-  ParameterNames: Yes
-  DeducedTypes: Yes
+  Enabled: "Yes"
+  ParameterNames: "Yes"
+  DeducedTypes: "Yes"
