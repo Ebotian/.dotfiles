@@ -1,6 +1,13 @@
 CompileFlags:
   Compiler: clang
-  Add: [-Wall]
+  Add:
+    [
+      -O1,
+      -Wall,
+      -fsanitize=address,
+      -fno-omit-frame-pointer,
+      -fno-optimize-sibling-calls,
+    ]
 Diagnostics:
   ClangTidy:
     Add:
