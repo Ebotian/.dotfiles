@@ -1,5 +1,6 @@
 CompileFlags:
-  Add: "-Wall"
+  Compiler: clang
+  Add: [-Wall]
 Diagnostics:
   ClangTidy:
     Add:
