@@ -149,6 +149,8 @@ export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 #clang+llvm
 export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
 export ASAN_OPTIONS=check_initialization_order=1
+export UBSAN_OPTIONS=print_stacktrace=1
+export LSAN_OPTIONS=verbosity=1:log_threads=1
 #export ASAN_SYMBOLIZER_PATH="/usr/local/bin/clang+llvm/bin/llvm-symbolizer"
 
 #neovim and clangd are using modern file config:XDG Base Directory Specification:usually $HOME/.config. look up there to find their config file.
