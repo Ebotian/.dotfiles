@@ -5,8 +5,20 @@ CompileFlags:
       -O1,
       -Wall,
       -fsanitize=address,
+      -fsanitize=leak,
       -fno-omit-frame-pointer,
       -fno-optimize-sibling-calls,
+      -fsanitize-memory-track-origins,
+      -fsanitize=bool,
+      -fsanitize=pointer-overflow,
+      -fsanitize=vla-bound,
+      -fsanitize=undefined,
+      -fsanitize=undefined-trap,
+      -fsanitize=integer,
+      -fsanitize=implicit-integer-truncation,
+      -fsanitize=implicit-integer-arithmetic-value-change,
+      -fsanitize=implicit-conversion,
+      -fsanitize=nullability,
     ]
 Diagnostics:
   ClangTidy:
@@ -18,6 +30,8 @@ Diagnostics:
       - performance*
       - bugprone*
       - llvm-*
+      - portability*
+      - clang-analyzer-*
     CheckOptions:
       readability-magic-numbers.IgnoredIntegerValues: "1;2;3;4;5;6;7;8;9"
   UnusedIncludes: Strict
