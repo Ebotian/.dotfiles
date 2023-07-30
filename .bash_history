@@ -503,3 +503,6 @@ zsh
 >>>>>>> 63a8a0676cfd8238643348a4e024612020114d23
 zsh
 exit
+source .bashrc
+env
+exit

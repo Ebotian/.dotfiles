@@ -140,3 +140,15 @@ proxyoff() {
 #source /home/yibotian/Fanta-sea/Markdown/YSYX/PRE/3.3.Shell_programming/TMS2.1.sh
 alias rsed='sed -r'
 #source "$HOME/.dotfiles/sync.sh"
+# Nodejs
+VERSION=v18.17.0
+DISTRO=linux-x64
+export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
+
+#clang+llvm
+export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
+export ASAN_OPTIONS=check_initialization_order=1
+export UBSAN_OPTIONS=print_stacktrace=1
+export LSAN_OPTIONS=verbosity=1:log_threads=1
+
+
