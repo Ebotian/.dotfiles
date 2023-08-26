@@ -138,7 +138,7 @@ export EDITOR=vim
 
 # enable vimode
 # !!!!warning!!!!: this plugin not available now, reason unknown
-source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
+#source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # set system language
 cd $HOME
