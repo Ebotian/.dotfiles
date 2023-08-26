@@ -82,3 +82,6 @@ nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
 
 "copy to system clipboard
 vnoremap y "+y
+
+"fix issue the cursor in zsh
+autocmd VimLeave * set guicursor=a:ver90-blinkon0
