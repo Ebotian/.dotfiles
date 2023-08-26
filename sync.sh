@@ -45,3 +45,5 @@ git push
 
 # find and remove broken symbolinks
 find $HOME -xtype l -delete
+
+cd ~
