@@ -4,9 +4,6 @@ source ~/.vimrc
 " Basic settings
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
-set number
-set relativenumber
-
 
 " Plugs"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
