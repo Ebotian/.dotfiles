@@ -109,14 +109,15 @@ source $ZSH/oh-my-zsh.sh
 export https_proxy=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
-# Open proxy
+
+# function open proxy
 proxyon() {
     export https_proxy=http://127.0.0.1:7890
     export http_proxy=http://127.0.0.1:7890
     export all_proxy=socks5://127.0.0.1:7890
     echo "HTTP/HTTPS Proxy on"
 }
-# Close proxy
+# function close proxy
 proxyoff() {
     unset http_proxy
     unset https_proxy
@@ -124,29 +125,33 @@ proxyoff() {
     echo "HTTP/HTTPS Proxy off"
 }
 
+# set alias
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
 alias nv="nvim"
 
+# set vim
 export VISUAL=vim
 export EDITOR=vim
 #export VIM=$HOME/.nvim
-source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
-source "$HOME/.dotfiles/sync.sh"
 
+# enable vimode
+source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
+
+# set system language
 cd $HOME
 export LANG=en_US.UTF-8
 export GDM_LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.UTF-8
 
-# Nodejs
+# set nodejs
 VERSION=v18.17.0
 DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 
-#clang+llvm
+# set clang+llvm
 export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
 export ASAN_OPTIONS=check_initialization_order=1
 export UBSAN_OPTIONS=print_stacktrace=1
@@ -155,9 +160,12 @@ export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 #neovim and clangd are using modern file config:XDG Base Directory Specification:usually $HOME/.config. look up there to find their config file.
 
-#search through your command history based on the text you have already entered at the prompt
+# search through your command history based on the text you have already entered at the prompt
 autoload -U history-search-end
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
+
+# sync all settings
+source "$HOME/.dotfiles/sync.sh"
