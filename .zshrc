@@ -139,13 +139,36 @@ export EDITOR=vim
 # enable vimode
 # !!!!warning!!!!: this plugin not available now, reason unknown
 #source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
+#another way to enable vimode
 bindkey -v
 VI_MODE_SET_CURSOR=true
-zle-line-init() {
-    zle -K viins
-    # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    echo -ne "\e[5 q"
+function _set_cursor() {
+    if [[ $TMUX = '' ]]; then
+      echo -ne $1
+    else
+      echo -ne "\ePtmux;\e\e$1\e\\"
+    fi
 }
+# Remove mode switching delay.
+KEYTIMEOUT=5
+function _set_block_cursor() { _set_cursor '\e[2 q' }
+function _set_beam_cursor() { _set_cursor '\e[0 q' }
+
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+      _set_block_cursor
+  else
+      _set_beam_cursor
+  fi
+}
+zle -N zle-keymap-select
+# ensure beam cursor when starting new terminal
+precmd_functions+=(_set_beam_cursor) #
+# ensure insert mode and beam cursor when exiting vim
+zle-line-init() { zle -K viins; _set_beam_cursor }
+zle-line-finish() { _set_block_cursor }
+zle -N zle-line-finish
+
 
 # set system language
 cd $HOME
