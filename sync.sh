@@ -12,10 +12,11 @@ GITHUB_REPO="https://github.com/Ebotian/.dotfiles.git"
 cd "$DOTFILES_REPO"
 
 # Move all dotfiles from $HOME to the repository
-find $HOME -maxdepth 1 -type f -iregex "^.*$HOME/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"
+find $HOME -maxdepth 1 -type f -iregex "^.*$HOME\/\..+$" | xargs -I {} mv {} "$DOTFILES_REPO"
 # {} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
 # Create symbolic links for all dotfiles in the repository
-find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
+find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex "^.*dotfiles\/\.[^git].*$" -exec ln -sf {} $HOME \;
+
 ln -sf $(pwd)/.gitconfig $HOME
 
 # {} is replaced by the current file name). The \; at the end of the command is used to terminate the -exec expression
