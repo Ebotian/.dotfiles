@@ -155,3 +155,9 @@ export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 #neovim and clangd are using modern file config:XDG Base Directory Specification:usually $HOME/.config. look up there to find their config file.
 
+#search through your command history based on the text you have already entered at the prompt
+autoload -U history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
