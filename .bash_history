@@ -506,3 +506,4 @@ exit
 source .bashrc
 env
 exit
+zsh
