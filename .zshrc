@@ -140,6 +140,7 @@ export EDITOR=vim
 # !!!!warning!!!!: this plugin not available now, reason unknown
 #source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 bindkey -v
+VI_MODE_SET_CURSOR=true
 
 # set system language
 cd $HOME
