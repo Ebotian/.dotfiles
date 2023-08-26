@@ -136,8 +136,6 @@ export VISUAL=vim
 export EDITOR=vim
 #export VIM=$HOME/.nvim
 
-# enable vimode
-source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # set system language
 cd $HOME
@@ -166,6 +164,10 @@ zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
+
+# enable vimode
+# warning: this plugin must be loaded after zsh-autosuggestions
+source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
