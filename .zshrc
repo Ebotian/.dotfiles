@@ -136,11 +136,12 @@ export VISUAL=vim
 export EDITOR=vim
 #export VIM=$HOME/.nvim
 
-# enable vimode
+# enable vi-mode
 # !!!!warning!!!!: this plugin not available now, reason unknown
 #source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 #another way to enable vimode
 bindkey -v
+# Remove mode switching delay.
 export KEYTIMEOUT=5
 function _set_cursor() {
     if [[ $TMUX = '' ]]; then
@@ -149,7 +150,6 @@ function _set_cursor() {
       echo -ne "\ePtmux;\e\e$1\e\\"
     fi
 }
-# Remove mode switching delay.
 function _set_block_cursor() { _set_cursor '\e[2 q' }
 function _set_beam_cursor() { _set_cursor '\e[5 q' }
 
@@ -164,8 +164,8 @@ zle -N zle-keymap-select
 # ensure beam cursor when starting new terminal
 precmd_functions+=(_set_beam_cursor)
 # ensure insert mode and beam cursor when exiting vim
-#zle-line-init(){ zle -K viins; _set_beam_cursor }
-#zle-line-finish(){ _set_block_cursor }
+zle-line-init(){ zle -K viins; _set_beam_cursor }
+zle-line-finish(){ _set_block_cursor }
 #zle -N zle-line-finish
 
 # set system language
