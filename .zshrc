@@ -142,6 +142,7 @@ export EDITOR=vim
 # enable vi-mode
 # !!!!warning!!!!: this plugin not available now, reason unknown
 #source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
+#initial sync also not available
 #another way to enable vimode
 bindkey -v
 # Change cursor shape for different vi modes.

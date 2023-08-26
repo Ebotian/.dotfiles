@@ -13,7 +13,8 @@ cd "$DOTFILES_REPO"
 ssh -T git@github.com
 # Clone sub git repo
 rmdir .oh-my-zsh;git clone git@github.com:Ebotian/.oh-my-zsh.git
-rmdir .zsh-vi-mode;git clone https://github.com/jeffreytse/zsh-vi-mode.git .zsh-vi-mode
+#disable vi-mode;use ohmyzsh's instead
+#rmdir .zsh-vi-mode;git clone https://github.com/jeffreytse/zsh-vi-mode.git .zsh-vi-mode
 # Create symbolic links for all dotfiles in the repository
 find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex '^.*dotfiles/\.[^git].*$' -exec ln -sf {} $HOME \;
 ln -sf $(pwd)/.gitconfig $HOME
