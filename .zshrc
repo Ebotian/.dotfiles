@@ -152,7 +152,7 @@ function _set_cursor() {
 # Remove mode switching delay.
 KEYTIMEOUT=5
 function _set_block_cursor() { _set_cursor '\e[2 q' }
-function _set_beam_cursor() { _set_cursor '\e[0 q' }
+function _set_beam_cursor() { _set_cursor '\e[5 q' }
 
 function zle-keymap-select {
   if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
