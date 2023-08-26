@@ -141,6 +141,11 @@ export EDITOR=vim
 #source $HOME/.dotfiles/.zsh-vi-mode/zsh-vi-mode.plugin.zsh
 bindkey -v
 VI_MODE_SET_CURSOR=true
+zle-line-init() {
+    zle -K viins
+    # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    echo -ne "\e[5 q"
+}
 
 # set system language
 cd $HOME
