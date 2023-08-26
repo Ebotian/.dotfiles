@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-echo "ok??????????????????"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.dotfiles/.oh-my-zsh"
@@ -72,7 +71,6 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git
     zsh-autosuggestions
 )
 
@@ -130,7 +128,11 @@ proxyoff() {
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
-alias nv="nvim"
+
+function cdll() {
+    cd $1
+    ll
+}
 
 # set vim
 export VISUAL=vim
