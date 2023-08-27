@@ -132,11 +132,11 @@ alias rsed="sed -r"
 function goodbye() {
     shutdown -h +1
     clear
-    local _goodbye_message="Nicolette Always In Your Heart"
+    local _goodbye_message="Nicolette Always In Your Heart "
     while true; do
     	toilet -t -f mono9 -F crop ${_goodbye_message%?}|lolcat
 	_goodbye_message=${_goodbye_message%?}
-	sleep 1
+	sleep 2
     done
 }
 function cdll() {
