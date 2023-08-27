@@ -131,11 +131,10 @@ alias rsed="sed -r"
 #alias goodbye="echo 'I am in heart with you';shutdown -h +1"
 function goodbye() {
     shutdown -h +1
-    _goodbye_string="Nicolette Always In Your Heart" 
+    toilet -t -f mono9 -F crop Nicolette Always In Your Heart|lolcat
     while true; do
-    toilet -t -f mono9 -F crop ${_goodby_string%?}|lolcat
-    _goodbye_string=${_goodbye_string%?}
-    sleep 2
+	echo "I am in heart with you"
+	sleep 1
     done
 }
 function cdll() {
