@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-################## add code below ##################
+################## MY code below ##################
 
 # Proxy auto start
 export https_proxy=http://127.0.0.1:7890
@@ -134,7 +134,7 @@ function goodbye() {
     clear
     local _goodbye_message="Nicolette Always In Your Heart "
     while true; do
-    	toilet -t -f mono9 -F crop ${_goodbye_message%?}|lolcat
+    	toilet -t -f mono9 -F crop ${_goodbye_message}|lolcat
 	_goodbye_message=${_goodbye_message%?}
 	sleep 2
     done
