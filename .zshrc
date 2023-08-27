@@ -202,3 +202,6 @@ bindkey "^[[B" history-beginning-search-forward
 
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
+
+# little fortune
+ fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.01
