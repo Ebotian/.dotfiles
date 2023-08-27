@@ -131,9 +131,11 @@ alias rsed="sed -r"
 #alias goodbye="echo 'I am in heart with you';shutdown -h +1"
 function goodbye() {
     shutdown -h +1
-    toilet -t -f mono9 -F crop Nicolette Always In Your Heart|lolcat
+    clear
+    local _goodbye_message="Nicolette Always In Your Heart"
     while true; do
-	echo "I am in heart with you"
+    	toilet -t -f mono9 -F crop ${_goodbye_message%?}|lolcat
+	string=${_goodbye_message%?}
 	sleep 1
     done
 }
