@@ -128,7 +128,7 @@ proxyoff() {
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
-
+alias goodbye="echo 'I'm in heart with you';shutdown -h now"
 function cdll() {
     cd $1
     ll
