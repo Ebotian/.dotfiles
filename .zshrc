@@ -128,7 +128,16 @@ proxyoff() {
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
-alias goodbye="echo 'I am in heart with you';shutdown -h +1"
+#alias goodbye="echo 'I am in heart with you';shutdown -h +1"
+function goodbye() {
+    shutdown -h +1
+    _goodbye_string="Nicolette Always In Your Heart" 
+    while ture; do
+    toilet -t -f mono9 -F crop ${_goodby_string%?}|lolcat
+    _goodbye_string=${_goodbye_string%?}
+    sleep 2
+    done
+}
 function cdll() {
     cd $1
     ll
