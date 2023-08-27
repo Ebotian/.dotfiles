@@ -135,7 +135,7 @@ function goodbye() {
     local _goodbye_message="Nicolette Always In Your Heart"
     while true; do
     	toilet -t -f mono9 -F crop ${_goodbye_message%?}|lolcat
-	string=${_goodbye_message%?}
+	_goodbye_message=${_goodbye_message%?}
 	sleep 1
     done
 }
