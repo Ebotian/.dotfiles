@@ -132,7 +132,7 @@ alias rsed="sed -r"
 function goodbye() {
     shutdown -h +1
     _goodbye_string="Nicolette Always In Your Heart" 
-    while ture; do
+    while true; do
     toilet -t -f mono9 -F crop ${_goodby_string%?}|lolcat
     _goodbye_string=${_goodbye_string%?}
     sleep 2
