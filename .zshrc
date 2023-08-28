@@ -128,7 +128,10 @@ proxyoff() {
 alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
-#alias goodbye="echo 'I am in heart with you';shutdown -h +1"
+alias doxyclean="rm -rf doxygen_output"
+
+# set function
+# function goodbye to shutdown Nicolette
 function goodbye() {
     shutdown -h +1
     clear
@@ -139,10 +142,31 @@ function goodbye() {
 	sleep 2
     done
 }
+# cd and ll
 function cdll() {
     cd $1
     ll
 }
+# doxygen code-graph
+doxycodegraph() {
+    # Generate a standard Doxyfile
+    doxygen -g _auto_Doxyfile
+
+    # Modify the generated Doxyfile to include the desired settings
+    sed -i '' "s|INPUT *=.*|INPUT = $1|g" _auto_Doxyfile
+    sed -i '' "s|OUTPUT_DIRECTORY *=.*|OUTPUT_DIRECTORY = doxygen_output|g" _auto_Doxyfile
+    sed -i '' "s|GENERATE_LATEX *=.*|GENERATE_LATEX = NO|g" _auto_Doxyfile
+    sed -i '' "s|EXTRACT_ALL *=.*|EXTRACT_ALL = YES|g" _auto_Doxyfile
+    sed -i '' "s|CALLER_GRAPH *=.*|CALLER_GRAPH = YES|g" _auto_Doxyfile
+    sed -i '' "s|CALL_GRAPH *=.*|CALL_GRAPH = YES|g" _auto_Doxyfile
+
+    # Run doxygen using the modified Doxyfile
+    doxygen _auto_Doxyfile
+
+    # Open the generated HTML documentation in Microsoft Edge in the background and ignore any errors in stdout
+    open -a "Microsoft Edge" doxygen_output/html/index.html &>/dev/null &
+}
+
 
 # set vim
 export VISUAL=vim
