@@ -149,21 +149,21 @@ function cdll() {
 }
 # doxygen code-graph
 doxycodegraph() {
-	    if [ ! -f _auto_Doxyfile ]; then
+	    if [ ! -f Doxyfile_auto_generated ]; then
     # Generate a standard Doxyfile
-    doxygen -g _auto_Doxyfile
+    doxygen -g Doxyfile_auto_generated
 
     # Modify the generated Doxyfile to include the desired settings
-    sed -i "s|INPUT *=.*|INPUT = $1|g" _auto_Doxyfile
-    sed -i "s|OUTPUT_DIRECTORY *=.*|OUTPUT_DIRECTORY = doxygen_output|g" _auto_Doxyfile
-    sed -i "s|GENERATE_LATEX *=.*|GENERATE_LATEX = NO|g" _auto_Doxyfile
-    sed -i "s|EXTRACT_ALL *=.*|EXTRACT_ALL = YES|g" _auto_Doxyfile
-    sed -i "s|CALLER_GRAPH *=.*|CALLER_GRAPH = YES|g" _auto_Doxyfile
-    sed -i "s|CALL_GRAPH *=.*|CALL_GRAPH = YES|g" _auto_Doxyfile
+    sed -i "s|INPUT *=.*|INPUT = $1|g" Doxyfile_auto_generated
+    sed -i "s|OUTPUT_DIRECTORY *=.*|OUTPUT_DIRECTORY = doxygen_output|g" Doxyfile_auto_generated
+    sed -i "s|GENERATE_LATEX *=.*|GENERATE_LATEX = NO|g" Doxyfile_auto_generated
+    sed -i "s|EXTRACT_ALL *=.*|EXTRACT_ALL = YES|g" Doxyfile_auto_generated
+    sed -i "s|CALLER_GRAPH *=.*|CALLER_GRAPH = YES|g" Doxyfile_auto_generated
+    sed -i "s|CALL_GRAPH *=.*|CALL_GRAPH = YES|g" Doxyfile_auto_generated
 	    fi
 
     # Run doxygen using the modified Doxyfile
-    doxygen _auto_Doxyfile
+    doxygen Doxyfile_auto_generated
 
     # Open the generated HTML documentation in Microsoft Edge in the background and ignore any errors in stdout
         xdg-open doxygen_output/html/index.html &>/dev/null &
