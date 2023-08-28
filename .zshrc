@@ -149,6 +149,7 @@ function cdll() {
 }
 # doxygen code-graph
 doxycodegraph() {
+	    if [ ! -f _auto_Doxyfile ]; then
     # Generate a standard Doxyfile
     doxygen -g _auto_Doxyfile
 
@@ -159,6 +160,7 @@ doxycodegraph() {
     sed -i "s|EXTRACT_ALL *=.*|EXTRACT_ALL = YES|g" _auto_Doxyfile
     sed -i "s|CALLER_GRAPH *=.*|CALLER_GRAPH = YES|g" _auto_Doxyfile
     sed -i "s|CALL_GRAPH *=.*|CALL_GRAPH = YES|g" _auto_Doxyfile
+	    fi
 
     # Run doxygen using the modified Doxyfile
     doxygen _auto_Doxyfile
