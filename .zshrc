@@ -129,6 +129,7 @@ alias fd="fdfind"
 alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
+alias libreoffice="soffice"
 
 # set function
 # function goodbye to shutdown Nicolette
@@ -146,6 +147,11 @@ function goodbye() {
 function cdll() {
     cd $1
     ll
+}
+
+# office 
+function office() {
+    soffice $1 2> /dev/null &
 }
 # doxygen code-graph
 doxycodegraph() {
@@ -234,5 +240,3 @@ source "$HOME/.dotfiles/sync.sh"
 
  # path to libreoffice
 export PATH=/opt/libreoffice7.6/program:$PATH
-alias libreoffice="soffice"
-alias office="soffice"
