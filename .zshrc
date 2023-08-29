@@ -234,3 +234,5 @@ source "$HOME/.dotfiles/sync.sh"
 
  # path to libreoffice
 export PATH=/opt/libreoffice7.6/program:$PATH
+alias libreoffice="soffice"
+alias office="soffice"
