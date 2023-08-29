@@ -166,7 +166,7 @@ doxycodegraph() {
     doxygen Doxyfile_auto_generated
 
     # Open the generated HTML documentation in Microsoft Edge in the background and ignore any errors in stdout
-    xdg-open doxygen_output/html/index.html &>/dev/null &
+    firefox -new-tab doxygen_output/html/index.html &
 }
 
 
