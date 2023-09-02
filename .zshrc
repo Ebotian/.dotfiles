@@ -240,3 +240,6 @@ source "$HOME/.dotfiles/sync.sh"
 
  # path to libreoffice
 export PATH=/opt/libreoffice7.6/program:$PATH
+
+# path to ysyx-workbench/new processor core(npc)
+export NPC_HOME=/home/yibotian/ysyx-workbench/npc
