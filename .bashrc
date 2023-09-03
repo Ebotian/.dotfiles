@@ -152,3 +152,4 @@ export UBSAN_OPTIONS=print_stacktrace=1
 export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 export NPC_HOME=/home/yibotian/ysyx-workbench/npc
+export NVBOARD_HOME=/home/yibotian/ysyx-workbench/nvboard

@@ -19,6 +19,7 @@ CompileFlags:
       -fsanitize=implicit-integer-arithmetic-value-change,
       -fsanitize=implicit-conversion,
       -fsanitize=nullability,
+      --include-directory=/usr/local/share/verilator/include,
     ]
 Diagnostics:
   ClangTidy:
