@@ -22,5 +22,6 @@
 "line number
 "conf
 "regex
-.search
 "--prof-exec
+.search
+"-f
