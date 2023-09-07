@@ -33,7 +33,9 @@ Diagnostics:
       - llvm-*
       - portability*
       - clang-analyzer-*
-    Remove: readability-magic-numbers
+    Remove: 
+      - readability-magic-numbers
+      - bugprone-easily-swappable-parameters
   UnusedIncludes: Strict
 InlayHints:
   Enabled: "Yes"
