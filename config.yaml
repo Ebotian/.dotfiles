@@ -36,6 +36,7 @@ Diagnostics:
     Remove: 
       - readability-magic-numbers
       - bugprone-easily-swappable-parameters
+      - modernize-use-trailing-return-type
   UnusedIncludes: Strict
 InlayHints:
   Enabled: "Yes"
