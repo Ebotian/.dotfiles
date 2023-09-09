@@ -21,6 +21,7 @@ CompileFlags:
       -fsanitize=nullability,
       --include-directory=/usr/local/share/verilator/include,
       --include-directory=/home/yibotian/ysyx-workbench/nvboard/include,
+      --include-directory=/home/yibotian/ysyx-workbench/nvboard/example/build/obj_dir,
     ]
 Diagnostics:
   ClangTidy:
