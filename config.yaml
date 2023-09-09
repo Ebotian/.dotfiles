@@ -20,6 +20,7 @@ CompileFlags:
       -fsanitize=implicit-conversion,
       -fsanitize=nullability,
       --include-directory=/usr/local/share/verilator/include,
+      --include-directory=/home/yibotian/ysyx-workbench/nvboard/include,
     ]
 Diagnostics:
   ClangTidy:
