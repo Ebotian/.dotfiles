@@ -22,6 +22,7 @@ CompileFlags:
       --include-directory=/usr/local/share/verilator/include,
       --include-directory=/home/yibotian/ysyx-workbench/nvboard/include,
       --include-directory=/home/yibotian/ysyx-workbench/nvboard/example/build/obj_dir,
+      --include-directory=/home/yibotian/Fanta-sea/YSYX/PRE/VERILOG/nvboard/example/build/obj_dir,
     ]
 Diagnostics:
   ClangTidy:
