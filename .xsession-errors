@@ -1,0 +1,7 @@
+Xsession: X session started for yibotian at Tue Sep 12 01:06:59 AM CST 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.BG7XA2
+localuser:yibotian being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
