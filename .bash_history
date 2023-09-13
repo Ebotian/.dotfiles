@@ -507,3 +507,7 @@ source .bashrc
 env
 exit
 zsh
+/usr/bin/hollywood 
+:q
+:exit
+exit
