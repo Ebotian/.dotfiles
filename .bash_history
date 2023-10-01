@@ -83,3 +83,13 @@ zsh
 yay -S hyprlan
 yay -S hyprland
 reboot
+kitty
+pacman -S kitty
+sudo pacman -S kitty
+kitty
+neofetch
+zsh
+zsh
+zsh
+Hyperland
+Hyprland
