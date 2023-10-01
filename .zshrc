@@ -134,6 +134,8 @@ alias hostname="$(cat /etc/hostname)"
 
 # set function
 # function goodbye to shutdown Nicolette
+function hostname() {
+cat /etc/hostname}
 function goodbye() {
     shutdown -h +1
     clear
