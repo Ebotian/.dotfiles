@@ -93,3 +93,16 @@ zsh
 zsh
 Hyperland
 Hyprland
+cd
+cd
+neofetch
+exit
+cd
+echo $SHELL
+chsh -l
+chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
+cd
+cd
+echo $SHELL
+chsh -s /bin/zsh
