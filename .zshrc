@@ -134,7 +134,7 @@ alias libreoffice="soffice"
 # set function
 # function goodbye to shutdown Nicolette
 function hostname() {
-cat /etc/hostname}
+cat /etc/hostname|echo}
 function goodbye() {
     shutdown -h +1
     clear
