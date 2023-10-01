@@ -130,6 +130,7 @@ alias edge="microsoft-edge 2> /dev/null &"
 alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
+alias hostname="$(echo /etc)"
 
 # set function
 # function goodbye to shutdown Nicolette
