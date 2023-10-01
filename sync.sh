@@ -27,7 +27,7 @@ ln -sf $(pwd)/.gitconfig $HOME
 git add --all
 
 # Commit the changes with a message containing the current date and hostname
-git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(hostname)"
+git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(cat /etc/hostname)"
 
 # git pull
 # Push the changes to the GitHub repository
