@@ -67,3 +67,13 @@ sudo pacman -S tmux
 zsh
 cd
 zsh
+pwd
+curl -I www.google.com
+zsh
+zsh
+quit
+zsh
+yay -S cava eww-wayland-git lexend-fonts-git geticons gojq gtklock gtklock-playerctl-module gtklock-powerbar-module gtk
+lock-userinfo-module hyprland-git python-material-color-utilities swww ttf-material-symbols-git xdg-desktop-portal-hypr
+land-git wlogout
+zsh
