@@ -7,7 +7,7 @@ let &packpath = &runtimepath
 
 " Plugs"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-call plug#begin('/home/yibotian/.local/share/nvim/plug')
+call plug#begin('~/.local/share/nvim/plug')
 " WITHOUT FULLY UNDERSTAND YOU CAN NOT TRUST
 " add plugs here:
 

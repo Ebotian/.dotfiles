@@ -106,3 +106,8 @@ cd
 cd
 echo $SHELL
 chsh -s /bin/zsh
+cd .config
+cd hypr
+ls
+zsh
+zsh

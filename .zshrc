@@ -176,9 +176,9 @@ doxycodegraph() {
 }
 
 
-# set vim
-export VISUAL=vim
-export EDITOR=vim
+# set nvim
+export VISUAL=nvim
+export EDITOR=nvim
 #export VIM=$HOME/.nvim
 
 # enable vi-mode
@@ -236,7 +236,7 @@ bindkey "^[[B" history-beginning-search-forward
 source "$HOME/.dotfiles/sync.sh"
 
 # little fortune
- fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.0001
+# fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.0001
 
  # path to libreoffice
 export PATH=/opt/libreoffice7.6/program:$PATH
