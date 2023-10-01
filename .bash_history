@@ -77,3 +77,9 @@ yay -S cava eww-wayland-git lexend-fonts-git geticons gojq gtklock gtklock-playe
 lock-userinfo-module hyprland-git python-material-color-utilities swww ttf-material-symbols-git xdg-desktop-portal-hypr
 land-git wlogout
 zsh
+zsh
+zsh
+zsh
+yay -S hyprlan
+yay -S hyprland
+reboot
