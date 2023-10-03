@@ -48,3 +48,7 @@ git push
 # 5. check if everything goes right
 # find and remove broken symbolinks
 find $HOME -xtype l -delete
+
+nvim -c 'PlugIntsall coc.nvim|q'
+nvim -c 'PlugIntsall copilot.vim|q'
+nvim -c 'CocIntsall -sync coc-word coc-yank coc-pairs|q'
