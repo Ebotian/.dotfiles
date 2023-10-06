@@ -125,7 +125,7 @@ proxyoff() {
 }
 
 # set alias
-alias fd="fdfind"
+#alias fd="fdfind"
 alias edge="microsoft-edge-stable 2> /dev/null &"
 alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
