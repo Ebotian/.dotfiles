@@ -111,3 +111,4 @@ cd hypr
 ls
 zsh
 zsh
+zsh\
