@@ -130,6 +130,7 @@ alias edge="microsoft-edge-stable 2> /dev/null &"
 alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
+alias conda="/usr/local/bin/anaconda3/bin/conda"
 
 # set function
 # function goodbye to shutdown Nicolette
@@ -268,4 +269,3 @@ export WLR_RENDERER_ALLOW_SOFTWARE=1
 #fi
 #unset __conda_setup
 # <<< conda initialize <<<
-
