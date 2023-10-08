@@ -112,3 +112,8 @@ ls
 zsh
 zsh
 zsh\
+Hyprland
+nvim /home/ebotian/.hyprland/hyprlandCrashReport1048.txt
+zsh
+Hyperland
+zsh
