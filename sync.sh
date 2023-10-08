@@ -16,7 +16,7 @@ find $HOME -maxdepth 1 -type f -iregex "^.*$HOME\/\..+$" | xargs -I {} mv {} "$D
 #{} is used for arguments replace, xargs pass stdin to `{}` referred by its argument `-I` and replace `{}` in the later `mv`'s argument
 
 # Create symbolic links for all dotfiles in the repository
-find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex "^.*dotfiles\/\.[^git][a-z].*$" -exec ln -sf {} $HOME \;
+find $DOTFILES_REPO -maxdepth 1 -type d,f -iregex "^.*[dotfiles|cache]\/\.[^git][a-z].*$" -exec ln -sf {} $HOME \;
 # {} is replaced by the current file name). The \; at the end of the command is used to terminate the -exec expression
 
 # Create symbolic links for .gitconfig
