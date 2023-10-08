@@ -251,6 +251,9 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 
+#hyprland
+export WLR_RENDERER_ALLOW_SOFTWARE=1
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 #__conda_setup="$('/usr/local/bin/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
