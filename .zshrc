@@ -239,7 +239,7 @@ source "$HOME/.dotfiles/sync.sh"
 # little fortune
 # fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.0001
 
- # path to libreoffice
+# path to libreoffice
 #export PATH=/opt/libreoffice7.6/program:$PATH
 
 # path to ysyx-workbench/subprojects
