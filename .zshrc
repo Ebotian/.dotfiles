@@ -218,7 +218,7 @@ DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 
 # set clang+llvm
-export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
+# export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
 export ASAN_OPTIONS=check_initialization_order=1
 export UBSAN_OPTIONS=print_stacktrace=1
 export LSAN_OPTIONS=verbosity=1:log_threads=1
@@ -240,7 +240,7 @@ source "$HOME/.dotfiles/sync.sh"
 # fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.0001
 
  # path to libreoffice
-export PATH=/opt/libreoffice7.6/program:$PATH
+#export PATH=/opt/libreoffice7.6/program:$PATH
 
 # path to ysyx-workbench/subprojects
 export NPC_HOME=/home/yibotian/ysyx-workbench/npc
@@ -254,6 +254,11 @@ export XMODIFIERS="@im=fcitx"
 
 #hyprland
 export WLR_RENDERER_ALLOW_SOFTWARE=1
+
+#texlive
+export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man
+export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
+export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
