@@ -130,7 +130,7 @@ alias edge="microsoft-edge-stable 2> /dev/null &"
 alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
-alias conda="/usr/local/bin/anaconda3/bin/conda"
+alias matlab="/usr/local/MATLAB/R2023b/bin/matlab"
 
 # set function
 # function goodbye to shutdown Nicolette
