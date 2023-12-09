@@ -237,7 +237,7 @@ export ____Current_dir=$(pwd)
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
 # back to previous directory
-cd ____Current_dir
+cd $____Current_dir
 
 
 
