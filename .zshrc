@@ -206,7 +206,6 @@ preexec () {
 
 
 # set system language
-cd $HOME
 export LANG=en_US.UTF-8
 export GDM_LANG=en_US.UTF-8
 export LANGUAGE=en_US
@@ -233,6 +232,8 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
+##test
+pwd
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
 
