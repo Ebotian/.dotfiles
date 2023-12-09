@@ -232,10 +232,14 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
-##test
-pwd
+# remember current directory
+Current_dir=$(pwd)
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
+# back to previous directory
+cd Current_dir
+
+
 
 # little fortune
 # fortune|toilet -t -f term -F crop|lolcat -a -t -d 15 -F 0.0001
