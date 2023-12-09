@@ -233,11 +233,11 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 # remember current directory
-Current_dir=$(pwd)
+export ____Current_dir=$(pwd)
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
 # back to previous directory
-cd Current_dir
+cd ____Current_dir
 
 
 
