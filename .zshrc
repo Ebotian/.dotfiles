@@ -265,6 +265,9 @@ export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man
 export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
 export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
+#wsl xLaunch gui(include how to get windows localhost
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 #__conda_setup="$('/usr/local/bin/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
