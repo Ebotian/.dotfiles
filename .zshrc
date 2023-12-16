@@ -118,9 +118,9 @@ proxyon() {
 }
 # function open proxy
 wslproxyon() {
-    export https_proxy=http://127.0.0.1:4780
-    export http_proxy=http://127.0.0.1:4780
-    export all_proxy=socks5://127.0.0.1:4780
+    export https_proxy=http://localhost:4780
+    export http_proxy=http://localhost:4780
+    export all_proxy=socks5://localhost:4780
     echo "wsl HTTP/HTTPS Proxy on"
 }
 # function close proxy
