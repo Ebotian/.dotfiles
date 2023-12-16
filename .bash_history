@@ -117,3 +117,11 @@ nvim /home/ebotian/.hyprland/hyprlandCrashReport1048.txt
 zsh
 Hyperland
 zsh
+ls
+pwd
+ll
+sudo
+sudo apt update
+sudo apt install zsh
+chsh -s $(which zsh)
+zsh
