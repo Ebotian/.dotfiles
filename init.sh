@@ -52,6 +52,5 @@ find $HOME -xtype l -delete
 # to use PlugInstall you may first install plug.vim as run:
 curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # for set in init.vim, this will install coc.nvim(need nodejs) and copilot.vim
-nvim -c 'PlugInstall'
-nvim -c 'CocInstall -sync coc-word coc-yank coc-pairs'
-nvim -c 'q'
+nvim -c 'PlugInstall|q'
+nvim -c 'CocInstall -sync coc-word coc-yank coc-pairs|q'
