@@ -133,6 +133,18 @@ alias libreoffice="soffice"
 alias matlab="/usr/local/MATLAB/R2023b/bin/matlab"
 
 # set function
+# wsl
+
+#wsl xLaunch gui(include how to get windows localhost
+function wsl(){
+    export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+    unset http_proxy
+    unset https_proxy
+    unset all_proxy
+    echo "HTTP/HTTPS Proxy off"
+
+}
+
 # function goodbye to shutdown Nicolette
 function goodbye() {
     shutdown -h +1
@@ -265,13 +277,8 @@ export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man
 export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
 export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
-<<<<<<< HEAD
 #yay -S zsh-syntax-highlighting-git
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-=======
-#wsl xLaunch gui(include how to get windows localhost
-export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
->>>>>>> 3df3e00833c4f8ae339201a63513395f8b2e7a3f
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
