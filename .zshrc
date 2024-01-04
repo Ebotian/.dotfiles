@@ -146,16 +146,16 @@ function wsl(){
 }
 
 # function goodbye to shutdown Nicolette
-function goodbye() {
-    shutdown -h +1
-    clear
-    local _goodbye_message="Nicolette Always In Your Heart "
-    while true; do
-    	toilet -t -f mono9 -F crop ${_goodbye_message}|lolcat
-	_goodbye_message=${_goodbye_message%?}
-	sleep 2
-    done
-}
+#function goodbye() {
+#    shutdown -h +1
+#    clear
+#    local _goodbye_message="Nicolette Always In Your Heart "
+#    while true; do
+#    	toilet -t -f mono9 -F crop ${_goodbye_message}|lolcat
+#	_goodbye_message=${_goodbye_message%?}
+#	sleep 2
+#    done
+#}
 # cd and ll
 function cdll() {
     cd $1
@@ -245,11 +245,11 @@ bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 # remember current directory
-export ____Current_dir=$(pwd)
+export ____Current_dir____=$(pwd)
 # sync all settings
 source "$HOME/.dotfiles/sync.sh"
 # back to previous directory
-cd $____Current_dir
+cd $____Current_dir____
 
 
 
