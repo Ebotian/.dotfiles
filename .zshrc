@@ -266,10 +266,12 @@ export NVBOARD_HOME=/home/yibotian/ysyx-workbench/nvboard
 #pip script path
 export PATH=$PATH:/home/yibotian/.local/bin
 
-#set ibus active
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=ibus
+#set fcitx active
+export PATH=$PATH:/home/yibotian/.local/bin
+#export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+
 
 #hyprland
 export WLR_RENDERER_ALLOW_SOFTWARE=1
