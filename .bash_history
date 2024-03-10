@@ -125,3 +125,8 @@ sudo apt update
 sudo apt install zsh
 chsh -s $(which zsh)
 zsh
+cd //
+l
+ll
+cd
+zsh
