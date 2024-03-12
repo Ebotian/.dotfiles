@@ -260,8 +260,8 @@ cd $____Current_dir____
 #export PATH=/opt/libreoffice7.6/program:$PATH
 
 # path to ysyx-workbench/subprojects
-export NPC_HOME=/home/yibotian/ysyx-workbench/npc
-export NVBOARD_HOME=/home/yibotian/ysyx-workbench/nvboard
+export NPC_HOME=~/ysyx-workbench/npc
+export NVBOARD_HOME=~/ysyx-workbench/nvboard
 
 #pip script path
 export PATH=$PATH:/home/yibotian/.local/bin
