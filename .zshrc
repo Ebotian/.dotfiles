@@ -284,6 +284,10 @@ export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 #yay -S zsh-syntax-highlighting-git
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+#for ysyx ics2023 pa
+export NEMU_HOME=/home/ebotian/ics2023/nemu
+export AM_HOME=/home/ebotian/ics2023/abstract-machine
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 #__conda_setup="$('/usr/local/bin/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
