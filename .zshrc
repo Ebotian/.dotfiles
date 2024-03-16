@@ -262,6 +262,8 @@ cd $____Current_dir____
 # path to ysyx-workbench/subprojects
 export NPC_HOME=~/ysyx-workbench/npc
 export NVBOARD_HOME=~/ysyx-workbench/nvboard
+export NEMU_HOME=/home/ebotian/ysyx-workbench/nemu
+export AM_HOME=/home/ebotian/ysyx-workbench/abstract-machine
 
 #pip script path
 export PATH=$PATH:/home/yibotian/.local/bin
@@ -283,10 +285,6 @@ export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
 #yay -S zsh-syntax-highlighting-git
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-#for ysyx ics2023 pa
-export NEMU_HOME=/home/ebotian/ics2023/nemu
-export AM_HOME=/home/ebotian/ics2023/abstract-machine
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
