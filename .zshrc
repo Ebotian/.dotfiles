@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/share/man:/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -279,11 +279,6 @@ export XMODIFIERS="@im=fcitx"
 
 #hyprland
 export WLR_RENDERER_ALLOW_SOFTWARE=1
-
-#texlive
-export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man
-export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
-export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
 #yay -S zsh-syntax-highlighting-git
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
