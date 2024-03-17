@@ -131,6 +131,7 @@ alias rsed="sed -r"
 alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
 alias matlab="/usr/local/MATLAB/R2023b/bin/matlab"
+alias gitll="git log --all --graph --decorate"
 
 # set function
 # wsl
@@ -149,6 +150,7 @@ function wsl(){
 #function goodbye() {
 #    shutdown -h +1
 #    clear
+#
 #    local _goodbye_message="Nicolette Always In Your Heart "
 #    while true; do
 #    	toilet -t -f mono9 -F crop ${_goodbye_message}|lolcat
