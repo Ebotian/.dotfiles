@@ -47,3 +47,5 @@ git commit -m "dotfiles_$(date +%Y-%m-%d) from $(whoami)@$(cat /etc/hostname)"
 find $HOME -maxdepth 1 -xtype l -delete
 
 cd ~
+
+ln -s ~/.dotfiles/.gdbinit ~/
