@@ -48,4 +48,4 @@ find $HOME -maxdepth 1 -xtype l -delete
 
 cd ~
 
-ln -s ~/.dotfiles/.gdbinit ~/
+ln -sf ~/.dotfiles/.gdbinit ~/
