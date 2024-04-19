@@ -132,6 +132,7 @@ alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
 alias matlab="/usr/local/MATLAB/R2023b/bin/matlab"
 alias gitll="git log --all --graph --decorate"
+alias clion="/home/ebotian/Downloads/CLion-2024.1/clion-2024.1/bin/clion.sh"
 
 # set function
 # wsl
