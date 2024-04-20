@@ -231,6 +231,9 @@ VERSION=v18.17.0
 DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 
+# set python
+export PATH="/home/ebotian/.local/bin:$PATH"
+
 # set clang+llvm
 # export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
 export ASAN_OPTIONS=check_initialization_order=1
