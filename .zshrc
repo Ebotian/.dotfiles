@@ -164,7 +164,7 @@ function cdll() {
     ll
 }
 
-# office 
+# office
 function office() {
     soffice $1 2> /dev/null &
 }
@@ -284,7 +284,7 @@ export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
 export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
 #yay -S zsh-syntax-highlighting-git
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
