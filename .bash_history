@@ -130,3 +130,4 @@ l
 ll
 cd
 zsh
+zsh
