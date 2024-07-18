@@ -10,3 +10,5 @@
 	rebase = false
 [core]
 	excludesfile = /home/yibotian/.gitignore_global
+[color]
+	ui = true

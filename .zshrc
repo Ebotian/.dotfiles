@@ -78,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/share/man:/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -132,6 +132,7 @@ alias doxyclean="rm -rf doxygen_output"
 alias libreoffice="soffice"
 alias matlab="/usr/local/MATLAB/R2023b/bin/matlab"
 alias gitll="git log --all --graph --decorate"
+alias clion="/home/ebotian/Downloads/CLion-2024.1/clion-2024.1/bin/clion.sh"
 
 # set function
 # wsl
@@ -230,6 +231,9 @@ VERSION=v18.17.0
 DISTRO=linux-x64
 export PATH="/usr/local/lib/node-$VERSION-$DISTRO/bin:$PATH"
 
+# set python
+export PATH="/home/ebotian/.local/bin:$PATH"
+
 # set clang+llvm
 # export PATH="/usr/local/bin/clang+llvm/bin:$PATH"
 export ASAN_OPTIONS=check_initialization_order=1
@@ -264,6 +268,8 @@ cd $____Current_dir____
 # path to ysyx-workbench/subprojects
 export NPC_HOME=~/ysyx-workbench/npc
 export NVBOARD_HOME=~/ysyx-workbench/nvboard
+export NEMU_HOME=/home/ebotian/ysyx-workbench/nemu
+export AM_HOME=/home/ebotian/ysyx-workbench/abstract-machine
 
 #pip script path
 export PATH=$PATH:/home/yibotian/.local/bin
@@ -277,11 +283,6 @@ export XMODIFIERS="@im=fcitx"
 
 #hyprland
 export WLR_RENDERER_ALLOW_SOFTWARE=1
-
-#texlive
-export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man
-export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info
-export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 
 #yay -S zsh-syntax-highlighting-git
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
