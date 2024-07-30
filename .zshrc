@@ -165,7 +165,7 @@ function cdll() {
     ll
 }
 
-# office 
+# office
 function office() {
     soffice $1 2> /dev/null &
 }
@@ -285,7 +285,7 @@ export XMODIFIERS="@im=fcitx"
 export WLR_RENDERER_ALLOW_SOFTWARE=1
 
 #yay -S zsh-syntax-highlighting-git
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
